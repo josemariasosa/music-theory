@@ -1,34 +1,34 @@
 # music-theory
 Music theory.
 
-**Major Scale**
 
 ```
+Major Scale:
 
-┣━━━━━━╋━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━━━━╋━━━╋<br/>
+┣━━━━━━╋━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━━━━╋━━━╋
 1      2      3   4      5      6      7   8
-  Tone   tone       tone   tone   tone
+  tone   tone       tone   tone   tone
              semitone                 semitone
-```
 
-**Natural Minor**
+Natural Minor:
 
-┣━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━╋━━━━━━╋━━━━━━╋<br/>
+┣━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━╋━━━━━━╋━━━━━━╋
 1      2   3      4      5   6      7      8
-  Tone       tone   tone       tone   tone
+  tone       tone   tone       tone   tone
       semitone          semitone 
 
 
-**Harmonic Minor**
+Harmonic Minor:
 
-┣━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━╋━━━━━━━━━╋━━━╋<br/>
+┣━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━╋━━━━━━━━━╋━━━╋
 1      2   3      4      5   6         7   8
-Tone, tone, tone, tone plus semitone
-semitone, semitone, , semitone
+  tone       tone   tone        tone + semitone
+      semitone          semitone      semitone
 
-**Melodic Minor**
+Melodic Minor:
 
-┣━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━━━━╋━━━━━━╋━━━╋<br/>
+┣━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━━━━╋━━━━━━╋━━━╋
 1      2   3      4      5      6      7   8
-Tone, tone, tone, tone, tone
-semitone, , semitone
+  tone       tone   tone   tone   tone
+      semitone                        semitone
+```
