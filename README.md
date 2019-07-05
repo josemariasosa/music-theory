@@ -8,7 +8,7 @@ Music theory.
 ┣━━━━━━╋━━━━━━╋━━━╋━━━━━━╋━━━━━━╋━━━━━━╋━━━╋<br/>
 1      2      3   4      5      6      7   8
   Tone   tone       tone   tone   tone
-  			 semitone                 semitone
+             semitone                 semitone
 ```
 
 **Natural Minor**
