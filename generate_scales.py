@@ -50,6 +50,90 @@ class RootNote(object):
     # --------------------------------------------------------------------------
 
     @property
+    def natural_major(self):
+        step_pattern = [1, 1, 0.5, 1, 1, 1, 0.5]
+
+        if self.root in self.notes_sharp:
+            key_index = self.notes_sharp.index(self.root)
+            sorted_notes = self.notes_sharp[key_index:] + self.notes_sharp[:key_index]
+
+        elif self.root in self.notes_flat:
+            key_index = self.notes_flat.index(self.root)
+            sorted_notes = self.notes_flat[key_index:] + self.notes_flat[:key_index]
+
+        sorted_notes = sorted_notes + [sorted_notes[0]]
+
+        step_pattern = [int(x*2) for x in step_pattern]
+        step_pattern = list(np.cumsum(step_pattern))
+
+        scale = []
+        for index, value in enumerate(sorted_notes):
+            if index == 0:
+                scale.append(value)
+            elif index in step_pattern:
+                scale.append(value)
+
+        return scale
+    
+    # --------------------------------------------------------------------------
+
+    @property
+    def harmonic_major(self):
+        step_pattern = [1, 1, 0.5, 1, 0.5, 1.5, 0.5]
+
+        if self.root in self.notes_sharp:
+            key_index = self.notes_sharp.index(self.root)
+            sorted_notes = self.notes_sharp[key_index:] + self.notes_sharp[:key_index]
+
+        elif self.root in self.notes_flat:
+            key_index = self.notes_flat.index(self.root)
+            sorted_notes = self.notes_flat[key_index:] + self.notes_flat[:key_index]
+
+        sorted_notes = sorted_notes + [sorted_notes[0]]
+
+        step_pattern = [int(x*2) for x in step_pattern]
+        step_pattern = list(np.cumsum(step_pattern))
+
+        scale = []
+        for index, value in enumerate(sorted_notes):
+            if index == 0:
+                scale.append(value)
+            elif index in step_pattern:
+                scale.append(value)
+
+        return scale
+    
+    # --------------------------------------------------------------------------
+
+    @property
+    def melodic_major(self):
+        step_pattern = [1, 1, 0.5, 1, 0.5, 1, 1]
+
+        if self.root in self.notes_sharp:
+            key_index = self.notes_sharp.index(self.root)
+            sorted_notes = self.notes_sharp[key_index:] + self.notes_sharp[:key_index]
+
+        elif self.root in self.notes_flat:
+            key_index = self.notes_flat.index(self.root)
+            sorted_notes = self.notes_flat[key_index:] + self.notes_flat[:key_index]
+
+        sorted_notes = sorted_notes + [sorted_notes[0]]
+
+        step_pattern = [int(x*2) for x in step_pattern]
+        step_pattern = list(np.cumsum(step_pattern))
+
+        scale = []
+        for index, value in enumerate(sorted_notes):
+            if index == 0:
+                scale.append(value)
+            elif index in step_pattern:
+                scale.append(value)
+
+        return scale
+    
+    # --------------------------------------------------------------------------
+
+    @property
     def minor(self):
         step_pattern = [1, 0.5, 1, 1, 0.5, 1, 1]
 
@@ -181,6 +265,19 @@ def stepDistance(from_note, to_note):
 
 # ------------------------------------------------------------------------------
 
+def stepOperations(given_note, tones):
+
+    tones = int(tones * 2)
+    notes = ["a", "a#", "b", "c", "c#", "d", "d#", "e", "f", "f#", "g", "g#"]
+
+    given_index = notes.index(given_note)
+
+    sorted_notes = notes[given_index:] + notes[:given_index]
+
+    return(sorted_notes[tones])
+
+# ------------------------------------------------------------------------------
+
 def getMode(note, scale):
 
     scale = scale[:-1]
@@ -238,6 +335,18 @@ def harmonization(scale):
         note_index = long_scale.index(note)
 
         triad = [long_scale[note_index], long_scale[note_index+2], long_scale[note_index+4]]
+        quads = [
+            long_scale[note_index],
+            long_scale[note_index+2],
+            long_scale[note_index+4],
+            long_scale[note_index+6]
+        ]
+        quads_dom7 = [
+            long_scale[note_index],
+            long_scale[note_index+2],
+            long_scale[note_index+4],
+            stepOperations(long_scale[note_index+6], tones=5)
+        ]
         steps = [stepDistance(triad[0], triad[1]), stepDistance(triad[1], triad[2])]
 
         if (steps[0] == major3) and (steps[1] == minor3):
@@ -255,8 +364,54 @@ def harmonization(scale):
         else:
             tail = 'unnamed'
 
-        print(triad[0], tail, '---', mode)
-        print(triad)
+
+        long_steps = [
+            stepDistance(quads[0], quads[1]),
+            stepDistance(quads[1], quads[2]),
+            stepDistance(quads[2], quads[3])
+        ]
+
+        if (long_steps[0] == major3) and (long_steps[1] == minor3) and (long_steps[2] == major3):
+            tail = 'maj7'
+
+        elif (long_steps[0] == minor3) and (long_steps[1] == major3) and (long_steps[2] == minor3):
+            tail = 'm7'
+
+        elif (long_steps[0] == major3) and (long_steps[1] == minor3) and (long_steps[2] == minor3):
+            tail = '7'
+
+        elif (long_steps[0] == minor3) and (long_steps[1] == minor3) and (long_steps[2] == major3):
+            tail = 'ø'
+
+        else:
+            tail = 'unnamed'
+
+        long_steps = [
+            stepDistance(quads_dom7[0], quads_dom7[1]),
+            stepDistance(quads_dom7[1], quads_dom7[2]),
+            stepDistance(quads_dom7[2], quads_dom7[3])
+        ]
+
+        if (long_steps[0] == major3) and (long_steps[1] == minor3) and (long_steps[2] == major3):
+            tail = 'maj7'
+
+        elif (long_steps[0] == minor3) and (long_steps[1] == major3) and (long_steps[2] == minor3):
+            tail = 'm7'
+
+        elif (long_steps[0] == major3) and (long_steps[1] == minor3) and (long_steps[2] == minor3):
+            tail = '7'
+
+        elif (long_steps[0] == minor3) and (long_steps[1] == minor3) and (long_steps[2] == major3):
+            tail = 'ø'
+
+        else:
+            tail = 'unnamed'
+
+        print(quads_dom7[0], tail, '---', mode)
+        print(quads_dom7)
+        print(quads_dom7)
+        print(long_steps)
+        # print(triad)
 
         print ('------------------------------')
 
@@ -264,8 +419,12 @@ def harmonization(scale):
 
 def main():
 
-    a = RootNote("d")
-    harmonization(a.melodic_minor)
+    note = RootNote("c")
+    # print(note.major)
+    # print(note.natural_major)
+    # print(note.melodic_major)
+    # print(note.melodic_minor)
+    harmonization(note.major)
     # print(stepDistance("b", "a"))
     # print(harmonization(a.major))
 
