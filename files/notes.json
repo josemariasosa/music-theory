@@ -1,0 +1,185 @@
+{
+    "notes": [
+        {
+            "position": 0,
+            "sharp": "c",
+            "flat": "c",
+            "latin": {
+                "sharp": "do",
+                "flat": "do"
+            },
+            "match": [
+                "c",
+                "do"
+            ]
+        },
+        {
+            "position": 1,
+            "sharp": "c#",
+            "flat": "db",
+            "latin": {
+                "sharp": "do sostenido",
+                "flat": "re bemol"
+            },
+            "match": [
+                "c#",
+                "db",
+                "c#/db",
+                "c-sharp",
+                "d-flat",
+                "do sostenido",
+                "re bemol"
+            ]
+        },
+        {
+            "position": 2,
+            "sharp": "d",
+            "flat": "d",
+            "latin": {
+                "sharp": "re",
+                "flat": "re"
+            },
+            "match": [
+                "d",
+                "re"
+            ]
+        },
+        {
+            "position": 3,
+            "sharp": "d#",
+            "flat": "eb",
+            "latin": {
+                "sharp": "re sostenido",
+                "flat": "mi bemol"
+            },
+            "match": [
+                "d#",
+                "eb",
+                "d#/eb",
+                "d-sharp",
+                "e-flat",
+                "re sostenido",
+                "mi bemol"
+            ]
+        },
+        {
+            "position": 4,
+            "sharp": "e",
+            "flat": "e",
+            "latin": {
+                "sharp": "mi",
+                "flat": "mi"
+            },
+            "match": [
+                "e",
+                "mi"
+            ]
+        },
+        {
+            "position": 5,
+            "sharp": "f",
+            "flat": "f",
+            "latin": {
+                "sharp": "fa",
+                "flat": "fa"
+            },
+            "match": [
+                "f",
+                "fa"
+            ]
+        },
+        {
+            "position": 6,
+            "sharp": "f#",
+            "flat": "gb",
+            "latin": {
+                "sharp": "fa sostenido",
+                "flat": "sol bemol"
+            },
+            "match": [
+                "f#",
+                "gb",
+                "f#/gb",
+                "f-sharp",
+                "g-flat",
+                "fa sostenido",
+                "sol bemol"
+            ]
+        },
+        {
+            "position": 7,
+            "sharp": "g",
+            "flat": "g",
+            "latin": {
+                "sharp": "sol",
+                "flat": "sol"
+            },
+            "match": [
+                "g",
+                "sol"
+            ]
+        },
+        {
+            "position": 8,
+            "sharp": "g#",
+            "flat": "ab",
+            "latin": {
+                "sharp": "sol sostenido",
+                "flat": "la bemol"
+            },
+            "match": [
+                "g#",
+                "ab",
+                "g#/ab",
+                "g-sharp",
+                "a-flat",
+                "sol sostenido",
+                "la bemol"
+            ]
+        },
+        {
+            "position": 9,
+            "sharp": "a",
+            "flat": "a",
+            "latin": {
+                "sharp": "la",
+                "flat": "la"
+            },
+            "match": [
+                "a",
+                "la"
+            ]
+        },
+        {
+            "position": 10,
+            "sharp": "a#",
+            "flat": "bb",
+            "latin": {
+                "sharp": "la sostenido",
+                "flat": "si bemol"
+            },
+            "match": [
+                "a#",
+                "bb",
+                "a#/bb",
+                "a-sharp",
+                "b-flat",
+                "la sostenido",
+                "si bemol"
+            ]
+        },
+        {
+            "position": 11,
+            "sharp": "b",
+            "flat": "b",
+            "latin": {
+                "sharp": "si",
+                "flat": "si"
+            },
+            "match": [
+                "b",
+                "si"
+            ]
+        }
+    ]
+}
