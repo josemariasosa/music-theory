@@ -7,6 +7,7 @@
 # jose maria sosa
 
 import json
+import math
 
 import numpy as np
 from root import RootNote
@@ -25,10 +26,10 @@ class Harmonization(object):
         self.setScaleParameters(scale)
 
         # 2. Define the list of 12 notes.
-        self.notes = self.getNotes()
+        self.notes = self.importNotes()
 
         # 3. Import the steps.
-        self.steps = self.importSteps()
+        self.importSteps()
 
         # 4. Default output notation.
         self.default_notation = self.setDefaultNotation()
@@ -49,7 +50,7 @@ class Harmonization(object):
 
     # --------------------------------------------------------------------------
 
-    def getNotes(self):
+    def importNotes(self):
 
         file_name = "files/notes.json"
         with open(file_name, 'r') as f:
@@ -64,6 +65,12 @@ class Harmonization(object):
         file_name = "files/steps.json"
         with open(file_name, 'r') as f:
             steps = json.load(f)['steps']
+
+        self.major3 = steps['major3']
+        self.minor3 = steps['minor3']
+        self.major7 = steps['major7']
+        self.minor7 = steps['minor7']
+        self.dim7 = steps['dim7']
 
         return steps
 
@@ -94,6 +101,20 @@ class Harmonization(object):
             modes = json.load(f)['patterns']['modes']
 
         return modes
+
+    # --------------------------------------------------------------------------
+
+    def formattingSteps(self, distance):
+
+        """ If distance == 1.5, then return 1.5, else, if distance == 2.0, then
+            return 2.
+        """
+
+        if math.modf(distance)[0] > 0:
+            return distance
+
+        else:
+            return int(distance)
 
     # --------------------------------------------------------------------------
 
@@ -194,21 +215,6 @@ class Harmonization(object):
 
     # --------------------------------------------------------------------------
     
-    def getQuadsDom7(self, note, long_scale):
-
-        # THIS MAY NOT BE CORRECT, CHECK IT FIRST
-
-        note_index = long_scale.index(note)
-
-        return [
-            long_scale[note_index],
-            long_scale[note_index+2],
-            long_scale[note_index+4],
-            self.stepOperations(long_scale[note_index+6], tones=-0.5)
-        ]
-
-    # --------------------------------------------------------------------------
-    
     def getStepsList(self, note_list):
 
         steps = []
@@ -222,21 +228,18 @@ class Harmonization(object):
     
     def nameTriad(self, steps):
 
-        major3 = self.steps['major3']
-        minor3 = self.steps['minor3']
-
-        if steps[0] == major3:
-            if steps[1] == major3:
+        if steps[0] == self.major3:
+            if steps[1] == self.major3:
                 return 'aug'
 
-            elif steps[1] == minor3:
+            elif steps[1] == self.minor3:
                 return ''
 
-        elif steps[0] == minor3:
-            if steps[1] == major3:
+        elif steps[0] == self.minor3:
+            if steps[1] == self.major3:
                 return 'min'
 
-            elif steps[1] == minor3:
+            elif steps[1] == self.minor3:
                 return 'dim'
 
         return 'unnamed'
@@ -245,38 +248,35 @@ class Harmonization(object):
     
     def nameQuads(self, steps):
 
-        major3 = self.steps['major3']
-        minor3 = self.steps['minor3']
-
-        if steps[0] == major3:
-            if steps[1] == major3:
-                if steps[2] == major3:
+        if steps[0] == self.major3:
+            if steps[1] == self.major3:
+                if steps[2] == self.major3:
                     return 'augΔ7'
                 
-                elif steps[2] == minor3:
+                elif steps[2] == self.minor3:
                     return 'unnamed'
 
-            elif steps[1] == minor3:
-                if steps[2] == major3:
-                    return 'maj7'
+            elif steps[1] == self.minor3:
+                if steps[2] == self.major3:
+                    return 'Maj7'           # Major 7th [M7 - Maj7]
                 
-                elif steps[2] == minor3:
-                    return '7'
+                elif steps[2] == self.minor3:
+                    return '7'              # Dominant 7th [7 - Δ7]
 
-        elif steps[0] == minor3:
-            if steps[1] == major3:
-                if steps[2] == major3:
+        elif steps[0] == self.minor3:
+            if steps[1] == self.major3:
+                if steps[2] == self.major3:
                     return 'mΔ7'
                 
-                elif steps[2] == minor3:
-                    return 'm7'
+                elif steps[2] == self.minor3:
+                    return 'm7'             # Minor 7th [m7 - min7]
 
-            elif steps[1] == minor3:
-                if steps[2] == major3:
-                    return 'ø7'
+            elif steps[1] == self.minor3:
+                if steps[2] == self.major3:
+                    return 'ø7'             # Half-diminished 7th [ø7 - min7b5]
                 
-                elif steps[2] == minor3:
-                    return '°7'
+                elif steps[2] == self.minor3:
+                    return 'o7'             # Fully-diminished 7th [o7 - dim7]
 
         return 'unnamed'
 
@@ -296,93 +296,128 @@ class Harmonization(object):
 
     # --------------------------------------------------------------------------
     
-    def getChordVariation(self, quads_steps):
+    def getNotes(self, root, tones):
 
-        major3 = self.steps['major3']
-        minor3 = self.steps['minor3']
-        major7 = self.steps['major7']
-        minor7 = self.steps['minor7']
-        dim7 = self.steps['dim7']
-        
-        if (quads_steps[0], quads_steps[1]) == (major3, minor3):
+        results = [root]
+        accum = 0
+        for tone in tones:
+            accum = self.formattingSteps(accum + tone)
+            results.append(self.stepOperations(root, tones=accum))
 
-            seventh = quads_steps[2] + 3.5
+        return [self.replacePositionNotes(x) for x in results]
+
+    # --------------------------------------------------------------------------
+    
+    def generateAlternatives(self, note, quads_steps):
+
+        Note = self.replacePositionNotes(note).title()
+        results = []
+
+        # (3.5) is the sum of a major3 + minor3
+        seventh = self.major3 + self.minor3 + quads_steps[2]
+        seventh = self.formattingSteps(seventh)
+
+        if seventh == self.major7:
+            # minor7
+            alternative_1 = quads_steps.copy()
+            alternative_1[2] = self.formattingSteps(quads_steps[2] - 0.5)
+
+            if ((alternative_1[2] >= self.minor3)
+                and (alternative_1[2] <= self.major3)):
+                results.append({
+                    "chord": Note + self.nameQuads(alternative_1),
+                    "tones": alternative_1,
+                    "notes": self.getNotes(note, alternative_1)
+                })
+            
+            # dim7
+            alternative_2 = quads_steps.copy()
+            alternative_2[2] = self.formattingSteps(quads_steps[2] - 1)
+
+            if ((alternative_2[2] >= self.minor3)
+                and (alternative_2[2] <= self.major3)):
+                results.append({
+                    "chord": Note + self.nameQuads(alternative_2),
+                    "tones": alternative_2,
+                    "notes": self.getNotes(note, alternative_2)
+                })
+
+        elif seventh == self.minor7:
+            # major7
+            alternative_1 = quads_steps.copy()
+            alternative_1[2] = self.formattingSteps(quads_steps[2] + 0.5)
+
+            if ((alternative_1[2] >= self.minor3)
+                and (alternative_1[2] <= self.major3)):
+                results.append({
+                    "chord": Note + self.nameQuads(alternative_1),
+                    "tones": alternative_1,
+                    "notes": self.getNotes(note, alternative_1)
+                })
+
+            # dim7
+            alternative_2 = quads_steps.copy()
+            alternative_2[2] = self.formattingSteps(quads_steps[2] - 1)
+
+            if ((alternative_2[2] >= self.minor3)
+                and (alternative_2[2] <= self.major3)):
+                results.append({
+                    "chord": Note + self.nameQuads(alternative_2),
+                    "tones": alternative_2,
+                    "notes": self.getNotes(note, alternative_2)
+                })
+
+        elif seventh == self.dim7:
+            # major7
+            alternative_1 = quads_steps.copy()
+            alternative_1[2] = self.formattingSteps(quads_steps[2] + 1)
+
+            if ((alternative_1[2] >= self.minor3)
+                and (alternative_1[2] <= self.major3)):
+                results.append({
+                    "chord": Note + self.nameQuads(alternative_1),
+                    "tones": alternative_1,
+                    "notes": self.getNotes(note, alternative_1)
+                })
+
+            # minor7
+            alternative_2 = quads_steps.copy()
+            alternative_2[2] = self.formattingSteps(quads_steps[2] + 0.5)
+
+            if ((alternative_2[2] >= self.minor3)
+                and (alternative_2[2] <= self.major3)):
+                results.append({
+                    "chord": Note + self.nameQuads(alternative_2),
+                    "tones": alternative_2,
+                    "notes": self.getNotes(note, alternative_2)
+                })
+
+        return results
+
+    # --------------------------------------------------------------------------
+    
+    def getChordVariation(self, note, quads_steps):
+
+        # Major
+        if (quads_steps[0], quads_steps[1]) == (self.major3, self.minor3):
+            results = self.generateAlternatives(note, quads_steps)
+
+        # Minor
+        elif (quads_steps[0], quads_steps[1]) == (self.minor3, self.major3):
+            results = self.generateAlternatives(note, quads_steps)
+
+        # Diminished
+        elif (quads_steps[0], quads_steps[1]) == (self.minor3, self.minor3):
+            results = self.generateAlternatives(note, quads_steps)
+
+        # Augmented
+        elif (quads_steps[0], quads_steps[1]) == (self.major3, self.major3):
+            results = self.generateAlternatives(note, quads_steps)
+
+        else:
             results = []
 
-
-            if seventh == major7:
-                # minor7
-                alternative_1 = quads_steps.copy()
-                alternative_1[2] = quads_steps[2] - 0.5
-
-                if (alternative_1[2] >= minor3) and (alternative_1[2] <= major3):
-                    results.append({
-                        "tail": self.nameQuads(alternative_1),
-                        "steps": alternative_1
-                    })
-                
-                # dim7
-                alternative_2 = quads_steps.copy()
-                alternative_2[2] = quads_steps[2] - 1
-
-                if (alternative_2[2] >= minor3) and (alternative_2[2] <= major3):
-                    results.append({
-                        "tail": self.nameQuads(alternative_2),
-                        "steps": alternative_2
-                    })
-
-                return results
-
-            elif seventh == minor7:
-                # major7
-                alternative_1 = quads_steps.copy()
-                alternative_1[2] = quads_steps[2] + 0.5
-
-                if (alternative_1[2] >= minor3) and (alternative_1[2] <= major3):
-                    results.append({
-                        "tail": self.nameQuads(alternative_1),
-                        "steps": alternative_1
-                    })
-
-                # dim7
-                alternative_2 = quads_steps.copy()
-                alternative_2[2] = quads_steps[2] - 1
-
-                if (alternative_2[2] >= minor3) and (alternative_2[2] <= major3):
-                    results.append({
-                        "tail": self.nameQuads(alternative_2),
-                        "steps": alternative_2
-                    })
-
-                return results
-
-            elif seventh == dim7:
-                # major7
-                alternative_1 = quads_steps.copy()
-                alternative_1[2] = quads_steps[2] + 1
-
-                if (alternative_1[2] >= minor3) and (alternative_1[2] <= major3):
-                    results.append({
-                        "tail": self.nameQuads(alternative_1),
-                        "steps": alternative_1
-                    })
-
-                # minor7
-                alternative_2 = quads_steps.copy()
-                alternative_2[2] = quads_steps[2] + 0.5
-
-                if (alternative_2[2] >= minor3) and (alternative_2[2] <= major3):
-                    results.append({
-                        "tail": self.nameQuads(alternative_2),
-                        "steps": alternative_2
-                    })
-
-                return results
-
-            else:
-                return results
-
-        return []
+        return results
 
 
     # --------------------------------------------------------------------------
@@ -411,7 +446,6 @@ class Harmonization(object):
 
             triad = self.getTriad(note, long_scale)
             quads = self.getQuads(note, long_scale)
-            quads_dom7 = self.getQuadsDom7(note, long_scale)
 
             triad_steps = self.getStepsList(triad)
             triad_tail = self.nameTriad(triad_steps)
@@ -419,7 +453,7 @@ class Harmonization(object):
             quads_steps = self.getStepsList(quads)
             quads_tail = self.nameQuads(quads_steps)
 
-            quads_chord_variation = self.getChordVariation(quads_steps)
+            quads_chord_variation = self.getChordVariation(note, quads_steps)
 
             formatted_note = self.replacePositionNotes(note).title()
 
@@ -428,16 +462,14 @@ class Harmonization(object):
                 "grade": self.toRoman(ix+1),
                 "triad": {
                     "notes": self.replacePositionNotes(triad),
-                    "name": formatted_note + triad_tail
+                    "chord": formatted_note + triad_tail
                 },
-                "quads": [
-                    {
+                "quads": {
                         "notes": self.replacePositionNotes(quads),
-                        "name": formatted_note + quads_tail,
-                        "tones": quads_steps#,
-                        # "alternatives": self.formattingAlts(quads_chord_variation)
-                    }
-                ]
+                        "chord": formatted_note + quads_tail,
+                        "tones": quads_steps,
+                        "alternatives": quads_chord_variation
+                }
             })
 
         return {
