@@ -251,7 +251,7 @@ class Harmonization(object):
         if steps[0] == major3:
             if steps[1] == major3:
                 if steps[2] == major3:
-                    return 'unnamed'
+                    return 'augΔ7'
                 
                 elif steps[2] == minor3:
                     return 'unnamed'
@@ -266,17 +266,17 @@ class Harmonization(object):
         elif steps[0] == minor3:
             if steps[1] == major3:
                 if steps[2] == major3:
-                    return 'unnamed'
+                    return 'mΔ7'
                 
                 elif steps[2] == minor3:
                     return 'm7'
 
             elif steps[1] == minor3:
                 if steps[2] == major3:
-                    return 'ø'
+                    return 'ø7'
                 
                 elif steps[2] == minor3:
-                    return 'unnamed'
+                    return '°7'
 
         return 'unnamed'
 
@@ -293,6 +293,109 @@ class Harmonization(object):
             6: 'vi',
             7: 'vii'
         }[n]
+
+    # --------------------------------------------------------------------------
+    
+    def getChordVariation(self, quads_steps):
+
+        major3 = self.steps['major3']
+        minor3 = self.steps['minor3']
+        major7 = self.steps['major7']
+        minor7 = self.steps['minor7']
+        dim7 = self.steps['dim7']
+        
+        if (quads_steps[0], quads_steps[1]) == (major3, minor3):
+
+            seventh = quads_steps[2] + 3.5
+            results = []
+
+
+            if seventh == major7:
+                # minor7
+                alternative_1 = quads_steps.copy()
+                alternative_1[2] = quads_steps[2] - 0.5
+
+                if (alternative_1[2] >= minor3) and (alternative_1[2] <= major3):
+                    results.append({
+                        "tail": self.nameQuads(alternative_1),
+                        "steps": alternative_1
+                    })
+                
+                # dim7
+                alternative_2 = quads_steps.copy()
+                alternative_2[2] = quads_steps[2] - 1
+
+                if (alternative_2[2] >= minor3) and (alternative_2[2] <= major3):
+                    results.append({
+                        "tail": self.nameQuads(alternative_2),
+                        "steps": alternative_2
+                    })
+
+                return results
+
+            elif seventh == minor7:
+                # major7
+                alternative_1 = quads_steps.copy()
+                alternative_1[2] = quads_steps[2] + 0.5
+
+                if (alternative_1[2] >= minor3) and (alternative_1[2] <= major3):
+                    results.append({
+                        "tail": self.nameQuads(alternative_1),
+                        "steps": alternative_1
+                    })
+
+                # dim7
+                alternative_2 = quads_steps.copy()
+                alternative_2[2] = quads_steps[2] - 1
+
+                if (alternative_2[2] >= minor3) and (alternative_2[2] <= major3):
+                    results.append({
+                        "tail": self.nameQuads(alternative_2),
+                        "steps": alternative_2
+                    })
+
+                return results
+
+            elif seventh == dim7:
+                # major7
+                alternative_1 = quads_steps.copy()
+                alternative_1[2] = quads_steps[2] + 1
+
+                if (alternative_1[2] >= minor3) and (alternative_1[2] <= major3):
+                    results.append({
+                        "tail": self.nameQuads(alternative_1),
+                        "steps": alternative_1
+                    })
+
+                # minor7
+                alternative_2 = quads_steps.copy()
+                alternative_2[2] = quads_steps[2] + 0.5
+
+                if (alternative_2[2] >= minor3) and (alternative_2[2] <= major3):
+                    results.append({
+                        "tail": self.nameQuads(alternative_2),
+                        "steps": alternative_2
+                    })
+
+                return results
+
+            else:
+                return results
+
+        return []
+
+
+    # --------------------------------------------------------------------------
+    
+    def formattingAlts(self, l):
+
+        results = []
+        if len(l) > 0:
+            for alternative in l["alternatives"]:
+                results.append({
+                    "notes": "",
+                    "name": alternative['tail']
+                })
 
     # --------------------------------------------------------------------------
     
@@ -316,6 +419,8 @@ class Harmonization(object):
             quads_steps = self.getStepsList(quads)
             quads_tail = self.nameQuads(quads_steps)
 
+            quads_chord_variation = self.getChordVariation(quads_steps)
+
             formatted_note = self.replacePositionNotes(note).title()
 
             harmonized_scale.append({
@@ -328,7 +433,9 @@ class Harmonization(object):
                 "quads": [
                     {
                         "notes": self.replacePositionNotes(quads),
-                        "name": formatted_note + quads_tail
+                        "name": formatted_note + quads_tail,
+                        "tones": quads_steps#,
+                        # "alternatives": self.formattingAlts(quads_chord_variation)
                     }
                 ]
             })
@@ -360,7 +467,7 @@ class Harmonization(object):
 
 def main():
 
-    D_minor = RootNote("G").major
+    D_minor = RootNote("d").major
 
     Harmonization(D_minor).simple()
 

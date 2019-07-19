@@ -1,6 +1,10 @@
 {
 	"steps": {
+    	"minor3": 1.5,
 		"major3": 2,
-    	"minor3": 1.5
+		"dim7": 4.5,
+		"minor7": 5,
+		"major7": 5.5,
+		"octave": 6
 	}
 }
