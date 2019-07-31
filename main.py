@@ -499,7 +499,7 @@ class Harmonization(object):
 
 def main():
 
-    D_minor = RootNote("c#").major
+    D_minor = RootNote("C").major
 
     Harmonization(D_minor).simple()
 

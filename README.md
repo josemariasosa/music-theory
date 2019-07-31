@@ -28,7 +28,7 @@ http://www.musicopoulos.com/chromatic-intervals.html
 | Start Note | End Note |  Interval Name | Semitones | Tones |
 |:----------:|:--------:|:--------------:|:---------:|:-----:|
 |      C     |     C    | Perfect Unison |     0     |   0   |
-|      C     |    C #   |   Aug. Unison  |     1     |  0.5  |
+|      C     |    C#    |   Aug. Unison  |     1     |  0.5  |
 |      C     |    Db    |    Minor 2nd   |     1     |  0.5  |
 |      C     |     D    |    Major 2nd   |     2     |   1   |
 |      C     |    D#    |    Aug. 2nd    |     3     |  1.5  |
