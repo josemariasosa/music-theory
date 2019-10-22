@@ -1,15 +1,35 @@
 # music-theory
 Music theory.
 
+## 0. Introduction
+
+> To play jazz requires discipline, and discipline is good for all of us.
+
 ## 1. C major scale
 
-The major scale scale is the most important one. 90% of your practicing time must be in major scale.
+The major scale is the most important one. 90% of your practicing time must be in the major scale.
 
 ### Learning C major scale in the bass
 
-Three fingers strategy
+The most fundamental exercises for the bass guitar arise when you put your left hand in position to start playing the major scale but using three different fingers: pointing, middle and the pinky; to start playing with. This generate the following three scales.
+
+The most important part of playing these scales is to keep your left hand position and use the most natural finger positions to flow.
+
+Do not under-estimate any of those three scales, memorize to the core the shape that start to arrise in the fret when you highlight only the notes you are playing. In case you don't remember, there is no flats or sharps in C major, so if you can, try to memorize, altogether, the name and the shape. The notes from the major scale are: C - D - E - F - G - A - B - C.
+
+
 
 #### pointing finger position
+
+```text
+C major scale
+                                                                              !
+G |-------------------------9-10-12-12-10-9-----------------------------------|
+D |-----------------9-10-12-----------------12-10-9---------------------------|
+A |---------8-10-12---------------------------------12-10-8-------------------|
+E |-8-10-12-------------------------------------------------12-10-8-----------|
+    ^pointing
+```
 
 ```text
 C major scale
@@ -56,6 +76,66 @@ A |----17-19-20-------------------------------20-19-17------------------------|
 E |-20-------------------------------------------------20---------------------|
     ^pinky
 ```
+
+
+The shape of how the three scales would see if it were projected into the fretboard at the same time. Picture them all together, mixed in the fretboard. This way, the name, the shape as a whole but also in specific corners of the shape, where very interesting figures emerge.
+
+With specific I mean:
+
+Learn this specific finger movement. This finger movement it is part of a chord progression when you move from seventh to root. The seven chords have that special shape, when you give two large jumps down. Those, large jumps down, are called, each, a minor third. All of those "specifics" I mean. There is a special section for all the things I said, so, keep reading. I call this figure "the box".
+
+```text
+C major scale
+      Bm°                                                                     !
+G |---------|-------------------------------------------------------|
+D |-----3-7-|-3------------------------------------------------------------|
+A |---5-----|---5---7--------------------------------------------------------|
+E |-7-------|-----7-8-----------------------------------------------------------|
+    ^pinky
+```
+
+As an exercise, try to identify the three-finger positions that are being play.
+
+Go further. Linking the 3 finger positions.
+
+Going from pointing finger position to pinky.
+```text
+C major scale
+                                                                              !
+G |-------------------|----7-8-9----------------------------------------------|
+D |-----------------9-|-10----------------------------------------------------|
+A |---------8-10-12---|-------------------------------------------------------|
+E |-8-10-12-----------|-------------------------------------------------------|
+    ^pointing           ^pinky
+```
+
+Going from pointing finger position to pointing finger position again. Lovely scale.
+```text
+C major scale
+                                                                              !
+G |-------------------|----------10-12-14-14-12-10----------------------------|
+D |-----------------9-|-10-12-14-------------------14-12-10-9-----------------|
+A |---------8-10-12---|---------------------------------------12-10-8---------|
+E |-8-10-12-----------|-----------------------------------------------12-10-8-|
+    ^pointing           ^pointing
+```
+
+
+
+With shape as a whole:
+
+```text
+C major scale
+                                                                              !
+G |-----------------4-5-7-9-10-12-10-9----------------------------------------|
+D |-------------5-7--------------------12-10-9--------------------------------|
+A |-------5-7-8--------------------------------12-10-8------------------------|
+E |-5-7-8----------------------------------------------12-10-8----------------|
+    ^pointing
+```
+
+
+
 
 ## 2. A minor scale
 
@@ -635,6 +715,206 @@ E |----3----5----7----8----10---12---13---15---17---19------------------------|
 ```
 
 The more important thing is to train you ear. Listen how each chord sound individually, and also, how they sound in regards of the relation with other chords.
+
+
+
+######## Other topics:
+
+## Japanese Scales (in sen)
+
+E - F - A - B - D - E (E)
+C - C# - F - G - A# - C (C)
+1, 2b, 4, 5, 7b
+
+## 16th Notes
+
+1 e + a
+one i and a
+two i and a
+
+Pattern 1
+ ____________
+ |   |   |   |
+x   x   x   x
+__________  __________
+|  |  |  |  |  |  |  |
+1  e  +  a  2  i  +  a
+
+Pattern 2
+__________  __________
+|     |  |  |     |  |
+1  e  +  a  2  e  +  a
+
+Pattern 3
+_______     _______
+|  |  |     |  |  |  
+1  e  +  a  2  e  +  a
+
+Pattern 4
+__________  __________
+|  |     |  |  |     |
+1  e  +  a  2  i  +  a
+
+Pattern 5
+__________  __________
+|        |  |        |
+1  e  +  a  2  i  +  a
+
+Pattern 6
+____        ____
+|  |        |  |     
+1  e  +  a  2  i  +  a
+
+## sus4
+
+C sus4
+1 4 5
+
+C7sus4
+1 4 5 b7
+
+## Chromatic approach triads C
+
+Chord invertions
+
+Cmajor triad   c-e-g
+
+first play this: c-e-g-c-e-g
+
+```text
+C major scale
+                                                                              !
+G |-----------9-12------------------------------------------------------------|
+D |--------10-----------------------------------------------------------------|
+A |---7-10--------------------------------------------------------------------|
+E |-8-------------------------------------------------------------------------|
+    ^middle
+```
+
+then play this: c-e-g - e-g-c - g-c-e - c-e-g
+
+```text
+C major scale
+              1rst      2nd invertions                                        !
+G |--------|---------|-------9-|----9-12-|------------------------------------|
+D |--------|------10-|----10---|-10------|------------------------------------|
+A |---7-10-|-7-10----|-10------|---------|------------------------------------|
+E |-8------|---------|---------|---------|------------------------------------|
+    ^middle
+```
+
+So as a general rule, using the grades of the Major scale. The chord could be rotated and create different sounds and mixes among those 3, and 4, notes. Test them all, feel them. Music is all about feelings.
+
+1-3-5     major chord 
+1-5-3
+
+3-5-1     1rst inversion
+3-1-5
+
+5-1-3     2nd inversion
+5-3-1
+
+7-1-3-5   3rd inversion
+7-1-5-3
+7-3-5-1
+7-3-1-5
+7-5-1-3
+7-5-3-1
+
+1-3-5-6   6 chords (C6)
+
+1-3-5-9   add9 chords (Cadd9)
+1-2-3-5   add9, you can also do that change, the nine for the 2.
+
+1-b3-5-6  m6 chords (Cm6)
+
+
+
+summary
+
+1-b3-b5   dim diminished chords (Cdim)
+1-b3-b5-7 dim diminished chords
+
+1-3-#5    aug augmented chords (Caug)
+1-3-#5-7  aug augmented chords (Caug)
+
+1-4-5     sus4 sus suspended four chords (csus4)
+1-4-5-b7  7sus4 seven suspended four chods
+
+1-2-5     sus2 sus suspended four chords (csus2)
+1-2-5-b7  7sus4 seven suspended four chods
+
+#### 1rst inversion C dim
+
+
+```text
+B diminished scale
+                                                                              !
+G |-------|-------|-----7-|---7-10-|-10-7---|-7-----|-------|-----------------|
+D |-------|-----9-|---9---|-9------|------9-|---9---|-9-----|-----------------|
+A |---5-8-|-5-8---|-8-----|--------|--------|-----8-|---8-5-|-8-5-------------|
+E |-7-----|-------|-------|--------|--------|-------|-------|-----7-----------|
+    ^ring
+```
+
+
+```text
+B diminished scale
+                                                                              !
+G |---------|---------|-----7-|---7-10-|-10-7---|-7-----|-------|-----------------|
+D |---------|------9*-|---9---|-9------|------9-|---9---|-9-----|-----------------|
+A |-------8-|----8----|-8-----|--------|--------|-----8-|---8-5-|-8-5-------------|
+E |-7*-10---|-10------|-------|--------|--------|-------|-------|-----7-----------|
+    ^index
+```
+
+The * shows where the root is. Always have in mind were is the rool in relation with the other fingers.
+
+
+## Jazz leason
+
+The chord progression most used in jazz, or at least most common is the `I vi ii V`.
+
+Let's get all the chords within the C major scale.
+
+| root | mode       | I     | vi    | ii    | V     |
+|------|------------|-------|-------|-------|-------|
+| A    | Aeolian    | Am7   | Fmaj7 | Bø7   | Em7b9 |
+| B    | Locrian    | Bø7   | G7    | Cmaj7 | Fmaj7 |
+| C    | Ionian     | Cmaj7 | Am7   | Dm7   | G7    |
+| D    | Dorian     | Dm7   | Bø7   | Em7b9 | Am7   |
+| E    | Phrygian   | Em7b9 | Cmaj7 | Fmaj7 | Bø7   |
+| F    | Lydian     | Fmaj7 | Dm7   | G7    | Gmaj7 |
+| G    | Mixolydian | G7    | Em7b9 | Am7   | Dm7   |
+
+
+Remembering the modes will help you, in case you forget the name of the cord, to remember the shape of how it should look. So remember kits, learn your modes.
+
+
+
+
+
+
+
+
+```text
+C major scale
+                                                                              !
+G |-----------------------------------------------------------------------|
+D |-------------------------------------------------------------------------|
+A |-----------------------------------------------------------------------|
+E |--------------------------------------------------------------------------|
+```
+
+
+Chromatic Approach:
+
+b-c-e-g eb-e-g-c gb-g-c-e b-c-e-g
+
+do the same with minor-dim-major
+
+########
+
 
 ---
 
