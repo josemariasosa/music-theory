@@ -5,43 +5,65 @@ Music theory.
 
 > To play jazz requires discipline, and discipline is good for all of us.
 
-## 1. C major scale
+## 1. The C major scale
 
-The major scale is the most important one. 90% of your practicing time must be in the major scale.
+The major scale is the most important one. In average, 90% of your practicing time must be in the major scale.
 
 ### Learning C major scale in the bass
 
-The most fundamental exercises for the bass guitar arise when you put your left hand in position to start playing the major scale but using three different fingers: pointing, middle and the pinky; to start playing with. This generate the following three scales.
+The C major scale is one of the most simple scales to remember because it does not have any sharp of flat notes.
 
-The most important part of playing these scales is to keep your left hand position and use the most natural finger positions to flow.
+`C - D - E - F - G - A - B - C`
 
-Do not under-estimate any of those three scales, memorize to the core the shape that start to arrise in the fret when you highlight only the notes you are playing. In case you don't remember, there is no flats or sharps in C major, so if you can, try to memorize, altogether, the name and the shape. The notes from the major scale are: C - D - E - F - G - A - B - C.
+It has 7 basic notes plus the octave.
 
+The most fundamental exercises for the bass guitar arise when you put your left hand in position to start playing the major scale but starting with three different fingers: index, middle and the pinky.
 
+This generate the following three scales.
 
-#### pointing finger position
+#### Index finger position
+
+Starting with the index finger, try to catch the essence of the most all-time famous scale: the C major scale.
+
+```text
+C major scale
+
+    going-up               going down                                         !
+G |----------------------|----------------------------------------------------|
+D |-----------------9-10-|-10-9-----------------------------------------------|
+A |---------8-10-12------|------12-10-8---------------------------------------|
+E |-8-10-12--------------|--------------8-10-12-------------------------------|
+    ^index
+```
+
+The C major scale is symmetric. If we add a small part of the next octave to our original scale, we can construct the extended version of the C major scale. The first 7 notes belong to the first octave, and the next 5 notes belong to the second octave.
+
+```text
+C major scale
+
+    1rst octave         2nd octave      going down                            !
+G |-------------------|-------9-10-12-|-12-10-9-------------------------------|
+D |-----------------9-|-10-12---------|---------12-10-9-----------------------|
+A |---------8-10-12---|---------------|-----------------12-10-8---------------|
+E |-8-10-12-----------|---------------|-------------------------12-10-8-------|
+    ^index
+```
+
+#### Middle finger position
+
+Starting with the middle finger we got a different shape but with the same notes than the latter (index finger position). The sound is similar, but it is not exactly the same, cause the strings varies for some of the notes. See how instead of playing the E note in the E string at the 12th fret, we play it at the 7th fret in the A string.
 
 ```text
 C major scale
                                                                               !
-G |-------------------------9-10-12-12-10-9-----------------------------------|
-D |-----------------9-10-12-----------------12-10-9---------------------------|
-A |---------8-10-12---------------------------------12-10-8-------------------|
-E |-8-10-12-------------------------------------------------12-10-8-----------|
-    ^pointing
+G |--------------------|------------------------------------------------------|
+D |-------------7-9-10-|-10-9-7-----------------------------------------------|
+A |------7-8-10--------|--------10-8-7----------------------------------------|
+E |-8-10---------------|---------------10-8-----------------------------------|
+    ^middle
 ```
 
-```text
-C major scale
-                                                                              !
-G |-------------------------9-10-12-12-10-9-----------------------------------|
-D |-----------------9-10-12-----------------12-10-9---------------------------|
-A |---------8-10-12---------------------------------12-10-8-------------------|
-E |-8-10-12-------------------------------------------------12-10-8-----------|
-    ^pointing
-```
-
-#### middle finger
+The extended version of the scale is:
 
 ```text
 C major scale
@@ -53,7 +75,19 @@ E |-8-10-------------------------------------------10-8-----------------------|
     ^middle
 ```
 
-#### pinky finder
+#### Pinky finder position
+
+The pinky position is one of my favorites. 
+
+```text
+C major scale
+                                                                              !
+G |-------------4-5-|-5-4-----------------------------------------------------|
+D |---------5-7-----|-----7-5-------------------------------------------------|
+A |---5-7-8---------|---------8-7-5-------------------------------------------|
+E |-8---------------|---------------8-----------------------------------------|
+    ^pinky
+```
 
 ```text
 C major scale
@@ -77,6 +111,10 @@ E |-20-------------------------------------------------20---------------------|
     ^pinky
 ```
 
+The most important part of playing these scales is to keep your left hand position and use the most natural finger positions to flow.
+
+Do not under-estimate any of those three scales, memorize to the core the shape that start to arrise in the fret when you highlight only the notes you are playing. In case you don't remember, there is no flats or sharps in C major, so if you can, try to memorize, altogether, the name and the shape. The notes from the major scale are: C - D - E - F - G - A - B - C.
+
 
 The shape of how the three scales would see if it were projected into the fretboard at the same time. Picture them all together, mixed in the fretboard. This way, the name, the shape as a whole but also in specific corners of the shape, where very interesting figures emerge.
 
@@ -87,10 +125,10 @@ Learn this specific finger movement. This finger movement it is part of a chord 
 ```text
 C major scale
       Bm°                                                                     !
-G |---------|-------------------------------------------------------|
-D |-----3-7-|-3------------------------------------------------------------|
-A |---5-----|---5---7--------------------------------------------------------|
-E |-7-------|-----7-8-----------------------------------------------------------|
+G |---------|-----------------------------------------------------------------|
+D |-----3-7-|-3---------------------------------------------------------------|
+A |---5-----|---5---7---------------------------------------------------------|
+E |-7-------|-----7-8---------------------------------------------------------|
     ^pinky
 ```
 
@@ -98,7 +136,7 @@ As an exercise, try to identify the three-finger positions that are being play.
 
 Go further. Linking the 3 finger positions.
 
-Going from pointing finger position to pinky.
+Going from index finger position to pinky.
 ```text
 C major scale
                                                                               !
@@ -106,10 +144,10 @@ G |-------------------|----7-8-9----------------------------------------------|
 D |-----------------9-|-10----------------------------------------------------|
 A |---------8-10-12---|-------------------------------------------------------|
 E |-8-10-12-----------|-------------------------------------------------------|
-    ^pointing           ^pinky
+    ^index           ^pinky
 ```
 
-Going from pointing finger position to pointing finger position again. Lovely scale.
+Going from index finger position to index finger position again. Lovely scale.
 ```text
 C major scale
                                                                               !
@@ -117,7 +155,7 @@ G |-------------------|----------10-12-14-14-12-10----------------------------|
 D |-----------------9-|-10-12-14-------------------14-12-10-9-----------------|
 A |---------8-10-12---|---------------------------------------12-10-8---------|
 E |-8-10-12-----------|-----------------------------------------------12-10-8-|
-    ^pointing           ^pointing
+    ^index           ^index
 ```
 
 
@@ -131,13 +169,10 @@ G |-----------------4-5-7-9-10-12-10-9----------------------------------------|
 D |-------------5-7--------------------12-10-9--------------------------------|
 A |-------5-7-8--------------------------------12-10-8------------------------|
 E |-5-7-8----------------------------------------------12-10-8----------------|
-    ^pointing
+    ^index
 ```
 
-
-
-
-## 2. A minor scale
+## 2. The A minor scale
 
 The minor scale scale is the most important one. 90% of your practicing time must be in minor scale. And this is real. A minor scale is also knwon as the V grade (the fith).
 
@@ -145,7 +180,7 @@ The minor scale scale is the most important one. 90% of your practicing time mus
 
 Three fingers strategy. The starting finger position help us lear the real shape of the minor scale.
 
-#### pointing finger position
+#### index finger position
 
 ```text
 A minor scale
@@ -154,7 +189,7 @@ G |-----------------4-5-7-7-5-4-----------------------------------------------|
 D |-------------5-7-------------7-5-------------------------------------------|
 A |-------5-7-8---------------------8-7-5-------------------------------------|
 E |-5-7-8---------------------------------8-7-5-------------------------------|
-    ^pointing
+    ^index
 ```
 
 #### middle finger
@@ -190,7 +225,7 @@ G |-------------------1-3-5-5-3-1---------------------------------------------|
 D |-------------1-3-5-------------5-3-1---------------------------------------|
 A |-------1-3-4-------------------------4-3-1---------------------------------|
 E |-1-3-4-------------------------------------4-3-1---------------------------|
-    ^pointing
+    ^index
 ```
 
 ## 3. Modes of the major scale
@@ -242,7 +277,7 @@ G |------------------------||-------------------------------------------------|
 D |----------------9-10-12-||-12-10-9-----------------------------------------|
 A |----------10-12---------||---------12-10-----------------------------------|
 E |-10-12-13---------------||---------------13-12-10--------------------------|
-    ^pointing
+    ^index
 
 Cm dorian scale
                                                                               !
@@ -250,7 +285,7 @@ G |---------------------7-8-10-10-8-7-----------------------------------------|
 D |--------------7-8-10---------------10-8-7----------------------------------|
 A |---------8-10-----------------------------10-8-----------------------------|
 E |-8-10-11---------------------------------------11-10-8---------------------|
-    ^pointing
+    ^index
 ```
 
 ### Phrygian mode
@@ -264,7 +299,7 @@ G |-------------------------||------------------------------------------------|
 D |-------------------12-14-||-14-12------------------------------------------|
 A |----------12-14-15-------||-------15-14-12---------------------------------|
 E |-12-13-15----------------||----------------15-13-12------------------------|
-    ^pointing
+    ^index
 
 Cm phrygian scale
                                                                               !
@@ -272,7 +307,7 @@ G |------------------------8-10-12-12-10-8------------------------------------|
 D |----------------8-10-11-----------------11-10-8----------------------------|
 A |--------8-10-11---------------------------------11-10-8--------------------|
 E |-8-9-11-------------------------------------------------11-9-8-------------|
-    ^pointing
+    ^index
 ```
 
 ### Lydian mode
@@ -308,7 +343,7 @@ G |-----------------||--------------------------------------------------------|
 D |-------------3-5-||-5-3----------------------------------------------------|
 A |-------3-5-7-----||-----7-5-3----------------------------------------------|
 E |-3-5-7-----------||-----------7-5-3----------------------------------------|
-    ^pointing
+    ^index
 
 C mixolydian scale
                                                                               !
@@ -316,7 +351,7 @@ G |-------------------------9-10-12-12-10-9-----------------------------------|
 D |-----------------8-10-12-----------------12-10-8---------------------------|
 A |---------8-10-12---------------------------------12-10-8-------------------|
 E |-8-10-12-------------------------------------------------12-10-8-----------|
-    ^pointing
+    ^index
 ```
 
 ### Aeolian mode
@@ -330,7 +365,7 @@ G |-----------------||--------------------------------------------------------|
 D |-------------5-7-||-7-5----------------------------------------------------|
 A |-------5-7-8-----||-----8-7-5----------------------------------------------|
 E |-5-7-8-----------||-----------8-7-5----------------------------------------|
-    ^pointing
+    ^index
 
 Cm aeolian scale
                                                                               !
@@ -338,7 +373,7 @@ G |----------------------7-8-10-10-8-7----------------------------------------|
 D |-----------------8-10---------------10-8-----------------------------------|
 A |---------8-10-11-------------------------11-10-8---------------------------|
 E |-8-10-11-----------------------------------------11-10-8-------------------|
-    ^pointing
+    ^index
 ```
 
 ### Locrian mode
@@ -352,7 +387,7 @@ G |-------------------||------------------------------------------------------|
 D |---------------7-9-||-9-7--------------------------------------------------|
 A |--------7-8-10-----||-----10-8-7-------------------------------------------|
 E |-7-8-10------------||------------10-8-7------------------------------------|
-    ^pointing
+    ^index
 
 Cm° locrian scale
                                                                               !
@@ -360,7 +395,7 @@ G |-----------------------8-10-11-11-10-8-------------------------------------|
 D |---------------8-10-11-----------------11-10-8-----------------------------|
 A |--------8-9-11---------------------------------11-9-8----------------------|
 E |-8-9-11-----------------------------------------------11-9-8---------------|
-    ^pointing
+    ^index
 ```
 
 ## 4. Harmonizing Major scales.
@@ -717,6 +752,45 @@ E |----3----5----7----8----10---12---13---15---17---19------------------------|
 The more important thing is to train you ear. Listen how each chord sound individually, and also, how they sound in regards of the relation with other chords.
 
 
+## Triads going up and down
+
+Going up
+
+```text
+A minor scale
+                                                                              !
+G |-------|-------|-------|-------|-------|-------|-----4-|---4-5-|-4-5-7-----|
+D |-------|-------|-------|-------|-----5-|---5-7-|-5-7---|-7-----|-----------|
+A |-------|-----5-|---5-7-|-5-7-8-|-7-8---|-8-----|-------|-------|-----------|
+E |-5-7-8-|-7-8---|-8-----|-------|-------|-------|-------|-------|-----------|
+```
+Going down
+
+```text
+A minor scale
+                                                                              !
+G |-7-5-4-|-5-4---|-4-----|-------|-------|-------|-------|-------|-----------|
+D |-------|-----7-|---7-5-|-7-5---|-5-----|-------|-------|-------|-----------|
+A |-------|-------|-------|-----8-|---8-7-|-8-7-5-|-7-5---|-5-----|-----------|
+E |-------|-------|-------|-------|-------|-------|-----8-|---8-7-|-8-7-5-----|
+```
+
+
+
+
+```text
+A minor scale
+                                                                              !
+G |-7-5-4-|-------|-------|-------|-------|-------|-------|-------|-----------|
+D |-------|-------|-------|-------|-------|-------|-------|-------|-----------|
+A |-------|-------|-------|-------|-------|-------|-------|-------|-----------|
+E |-------|-------|-------|-------|-------|-------|-------|-------|-----------|
+```
+
+
+
+
+
 
 ######## Other topics:
 
@@ -725,6 +799,79 @@ The more important thing is to train you ear. Listen how each chord sound indivi
 E - F - A - B - D - E (E)
 C - C# - F - G - A# - C (C)
 1, 2b, 4, 5, 7b
+
+
+Fumio koizumi
+
+Tetrachords - fragments of scale 4 notes long.
+
+1        4  5        8
+C  D  E  F  G  A  B  C
+|-tetra--|  |        |
+inferior    superior
+
+The inferior and superior tetrachords can be the same or different. For example in the Major scale we have:
+W W H       W  W  H  <- the same.
+W H W       H  W  W  <- in the natural minor scale
+
+In any traditional western scales you will always have the root a fourth and a fifht, and the rest of the notes could have any pattern. You can pick any other note however you want.
+
+What koizumi did was to instead of having 4 notes in a tetrachords, since most of the scales in japanese are pentatonic, koizumi change it for 3 notes.
+
+1        4  5        8
+C   .    F  G   .    C
+|-tetra--|  |        |
+inferior    superior
+
+4 main scales if you use the same trichord.
+
+#### ryu kyu scale
+
+if you use a major third
+
+1        4  5        8
+C    E   F  G    B   C
+| M3 |      | M3 |
+
+#### min-yo scale
+
+if you use a minor third (this is just the C minor pentatonic)
+
+1        4  5        8
+C    Eb  F  G    Bb  C
+| m3 |      | m3 |
+
+#### ritsu scale
+
+if you use a whole step (D minor pentatonic)
+
+1        4  5        8
+C   D    F  G   A    C
+| W |       | W |
+
+This one have a very nice pattern on the fret. Check it out.
+
+```text
+C major scale
+                                                                              !
+G |---------------2-5-2-------------------------------------------------------|
+D |-----------3-5-------5-3---------------------------------------------------|
+A |-------3-5---------------5-3-----------------------------------------------|
+E |-1-3-5-----------------------5-3-1-----------------------------------------|
+    ^index
+```
+
+#### miyako-bushi scale (hirajoshi)
+
+if you use a half step
+
+1        4  5        8
+C   Db   F  G   Ab   C
+| h |       | h |
+
+
+You can mix-n-match
+
 
 ## 16th Notes
 
@@ -861,10 +1008,10 @@ E |-7-----|-------|-------|--------|--------|-------|-------|-----7-----------|
 ```text
 B diminished scale
                                                                               !
-G |---------|---------|-----7-|---7-10-|-10-7---|-7-----|-------|-----------------|
-D |---------|------9*-|---9---|-9------|------9-|---9---|-9-----|-----------------|
-A |-------8-|----8----|-8-----|--------|--------|-----8-|---8-5-|-8-5-------------|
-E |-7*-10---|-10------|-------|--------|--------|-------|-------|-----7-----------|
+G |---------|---------|-----7-|---7-10-|-10-7---|-7-----|-------|-------------|
+D |---------|------9*-|---9---|-9------|------9-|---9---|-9-----|-------------|
+A |-------8-|----8----|-8-----|--------|--------|-----8-|---8-5-|-8-5---------|
+E |-7*-10---|-10------|-------|--------|--------|-------|-------|-----7-------|
     ^index
 ```
 
@@ -925,7 +1072,7 @@ G |----------------------------------------------------------------|
 D |----------------------------------------------------------------|
 A |-----------------------------------------------------------------|
 E |-------------------------------------------------------------------------|
-    ^pointing
+    ^index
 ```
 
 ```text
