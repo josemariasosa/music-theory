@@ -5,28 +5,76 @@ Music theory.
 
 > To play jazz requires discipline, and discipline is good for all of us.
 
+### The Circle of Fifths
+
+### The Circle of Fourths
+
+One of the best exercises to make you learn where are all the notes in the fretboard is to move in forths starting from C in the same string. Remember that if you say out loud the name of the note it could help you visualize it's position in regards of the other notes. This would look like this.
+
+Moving in fourths.
+
+```text
+Moving in fourths, starting in C. 
+    
+    C - F - Bb - Eb - Ab - Db - Gb - B - E - A - D - G - C                     !
+G |----------------------------------------------------------------------------|
+D |----------------------------------------------------------------------------|
+A |------------------------------------------------------3---------------------|
+E |-8---1---6----11---4----9----2----7---0---5---10--3-------------------------|
+```
+
+Then go back, do exactly the same but backwards and that is call "moving in fifths". If you notice, at the end of this scale there is a C starting on the string bellow, ie. the A-string, so we can generate another scale if we took it from right there.
+
+```text
+Moving in fourths, starting in C. 
+    
+    C - F - Bb - Eb - Ab - Db - Gb - B - E - A - D - G - C                     !
+G |----------------------------------------------------------------------------|
+D |------------------------------------------------------10--------------------|
+A |-3---8---1----6----11---4----9----2---7---0---5---10------------------------|
+E |----------------------------------------------------------------------------|
+```
+
+Beautiful! Don't you think? And it's even better, if you really want to know your fret, you should memorize all an each position. Sounds hard, at the begining, after a while it start to get easier.
+
+What about you, would you like to do by yourself the next two, the scales for the G and D string?
+
+```text
+Moving in fourths, starting in C. 
+    
+    C - F - Bb - Eb - Ab - Db - Gb - B - E - A - D - G - C                     !
+G |------------------------------------------------------5---------------------|
+D |-10--3---8---1----6----11---4----9----2---7---0---5-------------------------|
+A |----------------------------------------------------------------------------|
+E |----------------------------------------------------------------------------|
+    
+    C - F - Bb - Eb - Ab - Db - Gb - B - E - A - D - G - C                     !
+G |-5---10--3----8----1----6----11---4---9---2---7---0---5---------------------|
+D |----------------------------------------------------------------------------|
+A |----------------------------------------------------------------------------|
+E |----------------------------------------------------------------------------|
+```
+
 ## 1. The C major scale
 
 The major scale is the most important one. In average, 90% of your practicing time must be in the major scale.
 
 ### Learning C major scale in the bass
 
-The C major scale is one of the most simple scales to remember because it does not have any sharp of flat notes.
+The C major scale is one of the most simple scales to remember because it does not have any sharp of flat notes. It has 7 basic notes plus the octave.
 
 `C - D - E - F - G - A - B - C`
 
-It has 7 basic notes plus the octave.
-
-The most fundamental exercises for the bass guitar arise when you put your left hand in position to start playing the major scale but starting with three different fingers: index, middle and the pinky.
+There are multiple ways to practice the **C major scale**. The most fundamental exercises for the bass guitar arise when you put your left hand in position to start playing the major scale but starting with three different fingers: index, middle and the pinky.
 
 This generate the following three scales.
 
 #### Index finger position
 
-Starting with the index finger, try to catch the essence of the most all-time famous scale: the C major scale.
+Playing the C major scale starting with the index finger. Try to catch the essence of the most all-time famous scale.
 
 ```text
-C major scale
+C major scale simple
 
     going-up               going down                                         !
 G |----------------------|----------------------------------------------------|
@@ -39,7 +87,7 @@ E |-8-10-12--------------|--------------8-10-12-------------------------------|
 The C major scale is symmetric. If we add a small part of the next octave to our original scale, we can construct the extended version of the C major scale. The first 7 notes belong to the first octave, and the next 5 notes belong to the second octave.
 
 ```text
-C major scale
+C major scale extended
 
     1rst octave         2nd octave      going down                            !
 G |-------------------|-------9-10-12-|-12-10-9-------------------------------|
@@ -51,10 +99,10 @@ E |-8-10-12-----------|---------------|-------------------------12-10-8-------|
 
 #### Middle finger position
 
-Starting with the middle finger we got a different shape but with the same notes than the latter (index finger position). The sound is similar, but it is not exactly the same, cause the strings varies for some of the notes. See how instead of playing the E note in the E string at the 12th fret, we play it at the 7th fret in the A string.
+If we start playing with the middle finger, we got a different shape but with the same notes than the latter (index finger position). The sound is similar, but it is not exactly the same, cause the strings varies for some of the notes. See how instead of playing the E note in the E string at the 12th fret, we play it at the 7th fret in the A string.
 
 ```text
-C major scale
+C major scale simple
                                                                               !
 G |--------------------|------------------------------------------------------|
 D |-------------7-9-10-|-10-9-7-----------------------------------------------|
@@ -63,10 +111,10 @@ E |-8-10---------------|---------------10-8-----------------------------------|
     ^middle
 ```
 
-The extended version of the scale is:
+The extended version of the scale is generated when we add some notes from the next octave, as we did before.
 
 ```text
-C major scale
+C major scale extended
                                                                               !
 G |--------------------7-9-10-10-9-7------------------------------------------|
 D |-------------7-9-10---------------10-9-7-----------------------------------|
@@ -80,7 +128,7 @@ E |-8-10-------------------------------------------10-8-----------------------|
 The pinky position is one of my favorites. 
 
 ```text
-C major scale
+C major scale simple
                                                                               !
 G |-------------4-5-|-5-4-----------------------------------------------------|
 D |---------5-7-----|-----7-5-------------------------------------------------|
@@ -89,8 +137,10 @@ E |-8---------------|---------------8-----------------------------------------|
     ^pinky
 ```
 
+The extended is no so different from the simple version. However, it is important to recognize which one is the simple. Ask to yourself all the time: Where does the octave begins? Where does it end? 
+
 ```text
-C major scale
+C major scale extended
                                                                               !
 G |-------------4-5-7-7-5-4---------------------------------------------------|
 D |---------5-7-------------7-5-----------------------------------------------|
@@ -99,28 +149,47 @@ E |-8---------------------------------8---------------------------------------|
     ^pinky
 ```
 
-### Other cool major scales
+#### Linking finger positions
+
+Go further with the finger positions and try to link different finger positions together and see what happend.
+
+Going from index finger position to the pinky finger position.
 
 ```text
 C major scale
                                                                               !
-G |-------------------16-17-19-19-17-16---------------------------------------|
-D |-------------17-19-------------------19-17---------------------------------|
-A |----17-19-20-------------------------------20-19-17------------------------|
-E |-20-------------------------------------------------20---------------------|
-    ^pinky
+G |-------------------|----7-8-9----------------------------------------------|
+D |-----------------9-|-10----------------------------------------------------|
+A |---------8-10-12---|-------------------------------------------------------|
+E |-8-10-12-----------|-------------------------------------------------------|
+    ^index              ^pinky
 ```
 
-The most important part of playing these scales is to keep your left hand position and use the most natural finger positions to flow.
+Going from index finger position to index finger position again. Lovely scale.
 
-Do not under-estimate any of those three scales, memorize to the core the shape that start to arrise in the fret when you highlight only the notes you are playing. In case you don't remember, there is no flats or sharps in C major, so if you can, try to memorize, altogether, the name and the shape. The notes from the major scale are: C - D - E - F - G - A - B - C.
+```text
+C major scale
+                                                                              !
+G |-------------------|----------10-12-14-14-12-10----------------------------|
+D |-----------------9-|-10-12-14-------------------14-12-10-9-----------------|
+A |---------8-10-12---|---------------------------------------12-10-8---------|
+E |-8-10-12-----------|-----------------------------------------------12-10-8-|
+    ^index              ^index
+```
 
+#### The major scale
 
-The shape of how the three scales would see if it were projected into the fretboard at the same time. Picture them all together, mixed in the fretboard. This way, the name, the shape as a whole but also in specific corners of the shape, where very interesting figures emerge.
+Although it is one of the recommendations I see everywhere, I will repeat it again too: The most important part of playing these scales, and pretty much any song, is to keep your left hand in a kind of hold position and use the most natural finger movements.
 
-With specific I mean:
+Do not under-estimate any of those three scales (finger position major scale). Memorize to the core the shape that start to arrise in the fret when you highlight only the notes you are playing. In case you don't remember, there is no flats or sharps in C major, so if you can, try to memorize, altogether, the name and the shape. The notes from the major scale are: 
 
-Learn this specific finger movement. This finger movement it is part of a chord progression when you move from seventh to root. The seven chords have that special shape, when you give two large jumps down. Those, large jumps down, are called, each, a minor third. All of those "specifics" I mean. There is a special section for all the things I said, so, keep reading. I call this figure "the box".
+```text
+C - D - E - F - G - A - B - C.
+```
+
+The shape of how the three scales would see if it were projected into the fretboard at the same time. Picture them all together, mixed in the fretboard. This way, the name, the shape as a whole but also in specific corners of the shape, where very interesting figures emerge. Look that I said there is a whole picture of the scale, and an in-detail picture of the scale.
+
+The **in-detail picture of the scale** is all about learning this specific finger movement-position. This finger movement it is part of a chord progression when you move from seventh to root. The seven chords have that special shape, when you give two large jumps down. Those, large jumps down, are called, each, a minor third. All of those "specifics" I mean. There is a special section for all the things I said, so, keep reading. I call this figure "the box". As an exercise, try to identify the three-finger positions from the C major scale are being play.
 
 ```text
 C major scale
@@ -132,35 +201,7 @@ E |-7-------|-----7-8---------------------------------------------------------|
     ^pinky
 ```
 
-As an exercise, try to identify the three-finger positions that are being play.
-
-Go further. Linking the 3 finger positions.
-
-Going from index finger position to pinky.
-```text
-C major scale
-                                                                              !
-G |-------------------|----7-8-9----------------------------------------------|
-D |-----------------9-|-10----------------------------------------------------|
-A |---------8-10-12---|-------------------------------------------------------|
-E |-8-10-12-----------|-------------------------------------------------------|
-    ^index           ^pinky
-```
-
-Going from index finger position to index finger position again. Lovely scale.
-```text
-C major scale
-                                                                              !
-G |-------------------|----------10-12-14-14-12-10----------------------------|
-D |-----------------9-|-10-12-14-------------------14-12-10-9-----------------|
-A |---------8-10-12---|---------------------------------------12-10-8---------|
-E |-8-10-12-----------|-----------------------------------------------12-10-8-|
-    ^index           ^index
-```
-
-
-
-With shape as a whole:
+The **whole picture of the scale** it is more about how to go from one side to another on the fretboard. I mean, you could know the specifics about the two places you are going, but if you don't master also how to get from one place to the other, you are screw. So the whole picture of the scale helps you visulize the path you are available to cross, in order to move forward. 
 
 ```text
 C major scale
@@ -170,6 +211,36 @@ D |-------------5-7--------------------12-10-9--------------------------------|
 A |-------5-7-8--------------------------------12-10-8------------------------|
 E |-5-7-8----------------------------------------------12-10-8----------------|
     ^index
+```
+
+I have written a couple of metaphors about visualizing the scale. I am a visual person, in a geometric way. I am very good remembering and understanging complicated ideas using shapes. I learn that way, and I was able to remember all this positions in regards of their note and their grade in this particular way. If shapes are not your thing, find what fits to you. At the begining, when I was learning them, with the intention of remember the 12 notes, using the progression of the Tarot cards as the progression of notes. I assigned a single tarot card to each of the 12 notes. At the end, it did not work, it was a very complicate system. But, it gave me a good reason not to forget where in the fretboard is Ab (A-flat).
+
+### The properties of a position on the fretboard
+
+Any position on the fretboard has:
+
+- a note (the actual sound) - could be A, B, Eb.
+- the grade - could be the 1st, 2nd, 7th. Which gives you the chords you have availables.
+- the position in regards of the neighbors for the major scale. Which gives you the specific finger shape, by the modes (eg. dorian, locrian).
+
+If we take this, we understand that every position in the fretboard has a related set of available side-notes, if we define that note as a major scale. This is how every piece of the fretboard is related with each other. If you are available to cast this three concepts together, you will master the bass.
+
+Whenever you play any note, any sound in the bass, ask to yourself: this sound I'm about to make:
+  - Which note I'm playing? Where are the closest octaves? Where are the distant?
+  - Am I playing the root note? or maybe at the fifth? Is this a major or a minor chord?
+  - In what mode of the major scale am I playing?
+
+
+### Other cool major scales
+
+```text
+C major scale
+                                                                              !
+G |-------------------16-17-19-19-17-16---------------------------------------|
+D |-------------17-19-------------------19-17---------------------------------|
+A |----17-19-20-------------------------------20-19-17------------------------|
+E |-20-------------------------------------------------20---------------------|
+    ^pinky
 ```
 
 ## 2. The A minor scale
