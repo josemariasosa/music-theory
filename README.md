@@ -1134,6 +1134,45 @@ do the same with minor-dim-major
 ########
 
 
+### Introduction to Slapping
+
+Like Flea says: slap, then pull the octaves.
+
+```text
+Chromatic scale
+                                                                              !
+G |---------------------------------------------------------------------------|
+D |---2---3---4---5---6---7---8---9---10---11----12----13----14---------------|
+A |---^-----------------------------------------------------------------------|
+E |-0-│-1---2---3---4---5---6---7---8----9----10----11----12------------------|
+    ^ │
+    │ │ l P l P l P l P l P l P l P l P  l P  l  P  l  P  l  P
+    │ │
+    │ └─── pull the D-string right hand string pull (P)
+    └───────────────────────── slap the E-string right hand string slap (l)
+```
+
+
+I love the sound of the grades. So I create this exercise to listen to all the beauty of the grades. For each grade, the 1rt, 3rd, 7th and 5th appears. This help us remember the grade and the chord of the grade, for the major scale it could be major, minor and half-diminished.
+
+```text
+
+       1st            7th            2nd          6th
+        C             Bmø            Dm           Am                          !
+G |-------16----|-------14----|-------17----|-------12----|-------------------|
+D |----14-------|----12-------|----15-------|----10-------|-------------------|
+A |-15----------|-14----------|-17----------|-12----------|-------------------|
+E |----------15-|----------13-|----------17-|----------12-|-------------------|
+
+             l             l             l             l
+
+left-hand    ^thumb        ^thumb        ^middle       ^middle
+```
+
+
+
+
+
 ---
 
 ```text
@@ -1185,7 +1224,16 @@ http://www.musicopoulos.com/diatonic-intervals.html
 http://www.musicopoulos.com/chromatic-intervals.html
 
 
-
+.
+├── README.md
+├── files
+│   ├── notes.json
+│   ├── patterns.json
+│   └── steps.json
+├── main.py
+├── music.py
+├── root.py
+└── tabs.py
 
 
 ```text
@@ -1244,6 +1292,8 @@ E |------------|
 | \      | slide down                                                  |
 | v      | vibrato (sometimes written as ~)                            |
 | t      | right hand tap                                              |
+| P      | right hand string pull                                      |
+| l      | right hand string slap                                      |
 | s      | legato slide                                                |
 | S      | shift slide                                                 |
 | *      | natural harmonic                                            |
