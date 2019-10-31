@@ -858,12 +858,40 @@ A |-------|-------|-------|-------|-------|-------|-------|-------|-----------|
 E |-------|-------|-------|-------|-------|-------|-------|-------|-----------|
 ```
 
-
-
-
-
-
 ######## Other topics:
+
+
+
+## Mixing grades in a smooth way!
+
+I call this, what undermines the box, the baseline.
+
+Mixing 2nd and 7th. I also call this, the best hand to play texas hold 'em.
+
+```text
+Mixing 2nd and 7th grades from the G major scale
+
+    2nd                7th
+    B
+                                                                              !
+G |------9-12-9------|------4-5-7-5-4----------------------------------------|
+D |-7-10-|-|--|-10-7-|-4-5-7----------7-4-5------------------------------------|
+A |-|-|--|-|--|-|--|-|--------------------5------------------------|
+E |-|-|--|-|--|-|--|-|----------------------------------------------|
+    | |  | |  | |  |
+    | |  | |  | |  |
+    | |  | |  | |  |
+    ^index |  | |  |
+      ^pinky  | |  |
+         ^ring  |  |
+           ^pinky  |
+              ^middle
+                ^ring
+                   ^index
+
+
+```
+
 
 ## Japanese Scales (in sen)
 
@@ -876,23 +904,30 @@ Fumio koizumi
 
 Tetrachords - fragments of scale 4 notes long.
 
+```text
 1        4  5        8
 C  D  E  F  G  A  B  C
 |-tetra--|  |        |
 inferior    superior
+```
 
 The inferior and superior tetrachords can be the same or different. For example in the Major scale we have:
+
+```text
 W W H       W  W  H  <- the same.
 W H W       H  W  W  <- in the natural minor scale
+```
 
 In any traditional western scales you will always have the root a fourth and a fifht, and the rest of the notes could have any pattern. You can pick any other note however you want.
 
 What koizumi did was to instead of having 4 notes in a tetrachords, since most of the scales in japanese are pentatonic, koizumi change it for 3 notes.
 
+```text
 1        4  5        8
 C   .    F  G   .    C
 |-tetra--|  |        |
 inferior    superior
+```
 
 4 main scales if you use the same trichord.
 
@@ -900,25 +935,31 @@ inferior    superior
 
 if you use a major third
 
+```text
 1        4  5        8
 C    E   F  G    B   C
 | M3 |      | M3 |
+```
 
 #### min-yo scale
 
 if you use a minor third (this is just the C minor pentatonic)
 
+```text
 1        4  5        8
 C    Eb  F  G    Bb  C
 | m3 |      | m3 |
+```
 
 #### ritsu scale
 
 if you use a whole step (D minor pentatonic)
 
+```text
 1        4  5        8
 C   D    F  G   A    C
 | W |       | W |
+```
 
 This one have a very nice pattern on the fret. Check it out.
 
@@ -950,7 +991,9 @@ You can mix-n-match
 one i and a
 two i and a
 
+```text
 Pattern 1
+
  ____________
  |   |   |   |
 x   x   x   x
@@ -982,6 +1025,8 @@ Pattern 6
 ____        ____
 |  |        |  |     
 1  e  +  a  2  i  +  a
+
+```
 
 ## sus4
 
@@ -1023,6 +1068,8 @@ E |-8------|---------|---------|---------|------------------------------------|
 
 So as a general rule, using the grades of the Major scale. The chord could be rotated and create different sounds and mixes among those 3, and 4, notes. Test them all, feel them. Music is all about feelings.
 
+```text
+
 1-3-5     major chord 
 1-5-3
 
@@ -1061,6 +1108,8 @@ summary
 
 1-2-5     sus2 sus suspended four chords (csus2)
 1-2-5-b7  7sus4 seven suspended four chods
+
+```
 
 #### 1rst inversion C dim
 
