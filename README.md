@@ -1198,7 +1198,6 @@ E |-0-│-1---2---3---4---5---6---7---8----9----10----11----12------------------
     └───────────────────────── slap the E-string right hand string slap (l)
 ```
 
-
 I love the sound of the grades. So I create this exercise to listen to all the beauty of the grades. For each grade, the 1rt, 3rd, 7th and 5th appears. This help us remember the grade and the chord of the grade, for the major scale it could be major, minor and half-diminished.
 
 ```text
@@ -1214,6 +1213,78 @@ E |----------15-|----------13-|----------17-|----------12-|-------------------|
 
 left-hand    ^thumb        ^thumb        ^middle       ^middle
 ```
+
+
+### The fretboard railroad
+
+I call this kind of scales the railroad because they are created following the grades using the same strings.
+
+The following are not scales. Are small blocks of information which can be played in any order. I recommend you to create your own scales following any series of grades that you like. 
+
+Using the I iii V vii° grades of each chord. Don't you love diminished chords?
+
+```text
+C major scale
+    ii            I             vii°          vi           V                  !
+G |-------14-17-|-------12-16-|-------10-14-|-------9-12-|------7-10---------:|
+D |----15-------|----14-------|----12-------|----10------|----9--------------:|
+A |-17----------|-15----------|-14----------|-12---------|-10----------------:|
+E |-------------|-------------|-------------|------------|-------------------:|
+    ^ring         ^ring         ^ring         ^ring        ^pinky
+
+
+     IV        iii       ii        I         vii°                             !
+G |:-----5-9-|-----4-7-|-----2-5-|-----0-4-|-------2--------------------------|
+D |:---7-----|---5-----|---3-----|---2-----|---0-3----------------------------|
+A |:-8-------|-7-------|-5-------|-3-------|-2--------------------------------|
+E |:---------|---------|---------|---------|----------------------------------|
+     ^pinky    ^pinky    ^pinky    ^middle   ^middle
+
+```
+
+Now let's use also four notes of the first inversion chords of C major, using the V - I - iii - V grades. Using the fifth grade twice.
+
+```text
+C major scale
+    V             IV            iii           ii            I                 !
+G |-------16-19-|-------14-17-|-------12-16-|-------10-14-|-------9-12-------:|
+D |----17-------|----15-------|----14-------|----12-------|----10------------:|
+A |-17----------|-15----------|-14----------|-12----------|-10---------------:|
+E |-------------|-------------|-------------|-------------|------------------:|
+    ^middle       ^middle       ^middle       ^middle       ^middle
+
+
+     vii°       vi        V         IV        iii                             !
+G |:-----7-10-|-----5-9-|-----4-7-|-----2-5-|-----0-4-------------------------|
+D |:---9------|---7-----|---5-----|---3-----|---2-----------------------------|
+A |:-8--------|-7-------|-5-------|-3-------|-2-------------------------------|
+E |:----------|---------|---------|---------|---------------------------------|
+     ^middle    ^middle     ^middle   ^middle   ^middle
+
+```
+
+Let's do exactly the same, but now using instead the second inversion chords of C major, with the iii - I - V - iii. Now, the thirth grade appears twice.
+
+```text
+C major scale
+    V             IV            iii           ii            I                 !
+G |----------16-|----------14-|----------12-|----------10-|----------9-------:|
+D |-------17----|-------15----|-------14----|-------12----|-------10---------:|
+A |----17-------|----15-------|----14-------|----12-------|----10------------:|
+E |-19----------|-17----------|-15----------|-13----------|-12---------------:|
+    ^ring         ^ring         ^ring         ^ring         ^ring
+
+
+     vii°       vi        V         IV        iii                             !
+G |:--------7-|-------5-|-------4-|-------2-|-------0-------------------------|
+D |:------9---|-----7---|-----5---|-----3---|-----2---------------------------|
+A |:----8-----|---7-----|---5-----|---3-----|---2-----------------------------|
+E |:-10-------|-8-------|-7-------|-5-------|-3-------------------------------|
+     ^pinky     ^pinky    ^pinky    ^pinky    ^index
+
+```
+
+
 
 
 
