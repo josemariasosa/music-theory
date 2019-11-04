@@ -1,13 +1,13 @@
 # music-theory
 Music theory.
 
-## 0. Introduction
+## 1. Introduction
 
 > To play jazz requires discipline, and discipline is good for all of us.
 
-### The Circle of Fifths
+### 1.1 The Circle of Fifths
 
-### The Circle of Fourths
+### 1.2 The Circle of Fourths
 
 One of the best exercises to make you learn where are all the notes in the fretboard is to move in forths starting from C in the same string. Remember that if you say out loud the name of the note it could help you visualize it's position in regards of the other notes. This would look like this.
 
@@ -55,11 +55,11 @@ A |----------------------------------------------------------------------------|
 E |----------------------------------------------------------------------------|
 ```
 
-## 1. The C major scale
+## 2. The C major scale
 
 The major scale is the most important one. In average, 90% of your practicing time must be in the major scale.
 
-### Learning C major scale in the bass
+### 2.1 Learning C major scale in the bass
 
 The C major scale is one of the most simple scales to remember because it does not have any sharp of flat notes. It has 7 basic notes plus the octave.
 
@@ -69,7 +69,7 @@ There are multiple ways to practice the **C major scale**. The most fundamental 
 
 This generate the following three scales.
 
-#### Index finger position
+#### 2.1.1 Index finger position
 
 Playing the C major scale starting with the index finger. Try to catch the essence of the most all-time famous scale.
 
@@ -97,7 +97,7 @@ E |-8-10-12-----------|---------------|-------------------------12-10-8-------|
     ^index
 ```
 
-#### Middle finger position
+#### 2.1.2 Middle finger position
 
 If we start playing with the middle finger, we got a different shape but with the same notes than the latter (index finger position). The sound is similar, but it is not exactly the same, cause the strings varies for some of the notes. See how instead of playing the E note in the E string at the 12th fret, we play it at the 7th fret in the A string.
 
@@ -123,7 +123,7 @@ E |-8-10-------------------------------------------10-8-----------------------|
     ^middle
 ```
 
-#### Pinky finder position
+#### 2.1.3 Pinky finder position
 
 The pinky position is one of my favorites. 
 
@@ -149,7 +149,7 @@ E |-8---------------------------------8---------------------------------------|
     ^pinky
 ```
 
-#### Linking finger positions
+#### 2.1.4 Linking finger positions
 
 Go further with the finger positions and try to link different finger positions together and see what happend.
 
@@ -177,7 +177,7 @@ E |-8-10-12-----------|-----------------------------------------------12-10-8-|
     ^index              ^index
 ```
 
-#### The major scale
+### 2.2 The major scale
 
 Although it is one of the recommendations I see everywhere, I will repeat it again too: The most important part of playing these scales, and pretty much any song, is to keep your left hand in a kind of hold position and use the most natural finger movements.
 
@@ -215,7 +215,7 @@ E |-5-7-8----------------------------------------------12-10-8----------------|
 
 I have written a couple of metaphors about visualizing the scale. I am a visual person, in a geometric way. I am very good remembering and understanging complicated ideas using shapes. I learn that way, and I was able to remember all this positions in regards of their note and their grade in this particular way. If shapes are not your thing, find what fits to you. At the begining, when I was learning them, with the intention of remember the 12 notes, using the progression of the Tarot cards as the progression of notes. I assigned a single tarot card to each of the 12 notes. At the end, it did not work, it was a very complicate system. But, it gave me a good reason not to forget where in the fretboard is Ab (A-flat).
 
-### The properties of a position on the fretboard
+### 2.4 The properties of a position on the fretboard
 
 Any position on the fretboard has:
 
@@ -231,7 +231,7 @@ Whenever you play any note, any sound in the bass, ask to yourself: this sound I
   - In what mode of the major scale am I playing?
 
 
-### Other cool major scales
+### 2.5 Other cool major scales
 
 ```text
 C major scale
@@ -243,15 +243,15 @@ E |-20-------------------------------------------------20---------------------|
     ^pinky
 ```
 
-## 2. The A minor scale
+## 3. The A minor scale
 
 The minor scale scale is the most important one. 90% of your practicing time must be in minor scale. And this is real. A minor scale is also knwon as the V grade (the fith).
 
-### Learning A minor scale in the bass
+### 3.1 Learning A minor scale in the bass
 
 Three fingers strategy. The starting finger position help us lear the real shape of the minor scale.
 
-#### index finger position
+#### 3.1.1 index finger position
 
 ```text
 A minor scale
@@ -263,7 +263,7 @@ E |-5-7-8---------------------------------8-7-5-------------------------------|
     ^index
 ```
 
-#### middle finger
+#### 3.1.2 middle finger
 
 ```text
 A minor scale
@@ -275,7 +275,7 @@ E |-5-7-------------------------------------7-5-------------------------------|
     ^middle
 ```
 
-#### pinky finder
+#### 3.1.3 pinky finder
 
 ```text
 A minor scale
@@ -287,7 +287,9 @@ E |-5-------------------------------------5-----------------------------------|
     ^pinky
 ```
 
-### Other cool minor scales
+#### 3.1.4 Linking finger positions
+
+### 3.2 Other cool minor scales
 
 ```text
 F minor scale
@@ -299,7 +301,7 @@ E |-1-3-4-------------------------------------4-3-1---------------------------|
     ^index
 ```
 
-## 3. Modes of the major scale
+## 4. Modes of the major scale
 
 It's good to learn the modes in two ways. First, as invididual scales that have independent sounds and textures. Second, as part of the major/minor scales. In this section, I will present the scales of each mode starting in C.
 
@@ -315,7 +317,7 @@ As part of the C major scale, each mode is related to a tone.
 |   vi  |   Aeolian  |   A   |
 |  vii° |   Locrian  |   B   |
 
-### Ionian mode
+### 4.1 Ionian mode
 
 We will present the scale of C ionian. However, as part of the C major scale, ionian is the C Major scale, and have the I degree (first). 
 
@@ -337,7 +339,7 @@ E |-8-10-------------------------------------------10-8-----------------------|
     ^middle
 ```
 
-### Dorian mode
+### 4.2 Dorian mode
 
 We will present the scale of C dorian. However, as part of the C major scale, dorian is the D minor scale, and have the ii degree (second).
 
@@ -359,7 +361,7 @@ E |-8-10-11---------------------------------------11-10-8---------------------|
     ^index
 ```
 
-### Phrygian mode
+### 4.3 Phrygian mode
 
 We will present the scale of C phrygian. However, as part of the C major scale, phrygian is the E minor scale, and have the iii degree (third).
 
@@ -381,7 +383,7 @@ E |-8-9-11-------------------------------------------------11-9-8-------------|
     ^index
 ```
 
-### Lydian mode
+### 4.4 Lydian mode
 
 We will present the scale of C lydian. However, as part of the C major scale, lydian is the F Major scale, and have the IV degree (fourth).
 
@@ -403,7 +405,7 @@ E |-8-10-------------------------------------------10-8-----------------------|
     ^middle
 ```
 
-### Mixolydian mode
+### 4.5 Mixolydian mode
 
 We will present the scale of C mixolydian. However, as part of the C major scale, mixolydian is the G Major scale, and have the V degree (the fifth).
 
@@ -425,7 +427,7 @@ E |-8-10-12-------------------------------------------------12-10-8-----------|
     ^index
 ```
 
-### Aeolian mode
+### 4.6 Aeolian mode
 
 We will present the scale of C aeolian. However, as part of the C major scale, aeolian is the A minor scale, and have the vi degree (sixth).
 
@@ -447,7 +449,7 @@ E |-8-10-11-----------------------------------------11-10-8-------------------|
     ^index
 ```
 
-### Locrian mode
+### 4.7 Locrian mode
 
 We will present the scale of C locrian. However, as part of the C major scale, locrian is the B minor scale, and have the vii° degree (seventh). Never forget that locrian is special, because is a diminished chord, however the correct way should be "half-diminished" chord.
 
@@ -469,9 +471,9 @@ E |-8-9-11-----------------------------------------------11-9-8---------------|
     ^index
 ```
 
-## 4. Harmonizing Major scales.
+## 5. Harmonizing Major scales.
 
-### Basic
+### 5.1 Basic
 
 From the bass perspective, going up one fret it is called "half-step". This is because to go from C to D two half-steps are reaquired, aka. a step. If we start from C and use the following pattern of half and whole steps we can build any major scale. In music you can also call them tone and semitone.
 
@@ -488,9 +490,9 @@ The sound of 1 and 8 are almost the same. They resonate! This mean that we have 
 
 So, to move from 1 to 2, we have to move a tone. To go from 1 to 3, we have to move 2 tones. To 1 to 3, we have to move a **major third**, which mean 1.5 tones.
 
-#### How to name the tones
+### 5.2 How to name the tones
 
-##### Diatonic Intervals
+#### 5.2.1 Diatonic Intervals
 
 | Start Note | End Note | Interval Name  | Semitones | Tones |
 |:----------:|:--------:|:--------------:|:---------:|:-----:|
@@ -503,7 +505,7 @@ So, to move from 1 to 2, we have to move a tone. To go from 1 to 3, we have to m
 | C          | B        | Major 7th      | 11        | 5.5   |
 | C          | C        | Perfect Octave | 12        | 6     |
 
-##### Chromatic Intervals
+#### 5.2.2 Chromatic Intervals
 
 | Start Note | End Note |  Interval Name | Semitones | Tones |
 |:----------:|:--------:|:--------------:|:---------:|:-----:|
@@ -526,7 +528,7 @@ So, to move from 1 to 2, we have to move a tone. To go from 1 to 3, we have to m
 |      C     |     B    |    Major 7th   |     11    |  5.5  |
 |      C     |     C    | Perfect Octave |     12    |   6   |
 
-### Stacking thirds
+### 5.3 Stacking thirds
 
 Stacking thirds is a process we use to build, "to harmonize", all the chords from the major scale.
 
@@ -541,7 +543,7 @@ I      ii     iii IV     V      vi     vii°
              semitone                 semitone
 ```
 
-#### 3 notes chords
+### 5.4 3 notes chords
 
 To build all the 3 notes chords from the major scale we need to remember from the **chromatic intervals table** that a major 3rd equals to 2 tones, and the minor 3rd equals to 1.5 tones. 
 
@@ -583,7 +585,7 @@ Notice how, for diminished chords, the fifth is not perfect. A minor 3rd (1.5 to
 
 On the other hand, a major 3rd (2 tones) plus a major 3rd (2 tones) give us a total of 4 tones. This interval is called, try to guess how?, **augmented fifth**. Sadly, this chord is not present in any major scale, however it could be found in other scales like the Melodic Minor Scale.
 
-##### C major chord (grade I)
+##### 5.5.1 C major chord (grade I)
 
 Let's talk about C major as a chord. If we start from 1, from C, and we move a **major third**, 2 tones, we land on E. Then, if from 3, we move another third, a minor third, then we reach G, the note in the fifth grade.See what we are doing here? Stacking thirds.
 
@@ -615,7 +617,7 @@ E |----8----|----8----|-------------------------------------------------------|
 
 The first C is being play: C-E-G, and the second C: C-G-E. Technically the same, but aestetically not.
 
-##### D minor chord (grade ii)
+##### 5.5.2 D minor chord (grade ii)
 
 The D minor, or [Cm, Cmin], chord is generated by using al those notes: D, F, A.
 
@@ -643,7 +645,7 @@ E |----10---|----10---|-------------------------------------------------------|
 
 The first Dm is being play: D-F-A, and the second Dm: D-A-F.
 
-##### E minor chord (grade iii)
+##### 5.5.3 E minor chord (grade iii)
 
 The E minor, or [Em, Emin], chord is generated by using al those notes: E, G, B. It is also called just third, because it's located in that tone.
 
@@ -671,7 +673,7 @@ E |----12---|----12---|-------------------------------------------------------|
 
 The first Dm is being play: E-G-B, and the second Dm: E-B-G.
 
-##### F major chord (grade IV)
+##### 5.5.4 F major chord (grade IV)
 
 The F major, or [F], chord is generated by using al those notes: F, A, C.
 
@@ -699,7 +701,7 @@ E |----13---|----13---|-------------------------------------------------------|
 
 The first Dm is being play: E-G-B, and the second Dm: E-B-G.
 
-##### G major chord (grade V)
+##### 5.5.5 G major chord (grade V)
 
 The G major, or [G], chord is generated by using al those notes: G, B, D. This is sometimes called the fifth.
 
@@ -727,7 +729,7 @@ E |----3----|----3----|-------------------------------------------------------|
 
 The first G is being play: G-B-D, and the second Dm: G-D-B.
 
-##### A minor chord (grade vi)
+##### 5.5.6 A minor chord (grade vi)
 
 The A minor, or [Am, Amin], chord is generated by using al those notes: A, C, E.
 
@@ -755,9 +757,9 @@ E |----5----|----5----|-------------------------------------------------------|
 
 The first Am is being play: A-C-E, and the second Am: A-E-C.
 
-##### B diminished chord (grade vii°)
+##### 5.5.7 B diminished chord (grade vii°)
 
-The B diminished, or [Bdim, B°], chord, that should have be correctly said: "hald-diminished", is generated by using al those notes: B, D, F.
+The B diminished, or [Bdim, B°], chord, that should have be correctly said: "half-diminished", is generated by using al those notes: B, D, F.
 
 ```text
 Major Scale:
@@ -783,7 +785,7 @@ E |----7----|----7----|-------------------------------------------------------|
 
 The first Bm° is being play: B-D-F, and the second Bm°: B-F-D.
 
-###### Play them all together chanting the names
+### 5.6 Play them all together chanting the names
 
 Very good exercise!
 
@@ -823,7 +825,7 @@ E |----3----5----7----8----10---12---13---15---17---19------------------------|
 The more important thing is to train you ear. Listen how each chord sound individually, and also, how they sound in regards of the relation with other chords.
 
 
-## Triads going up and down
+## 6. Triads going up and down
 
 Going up
 
