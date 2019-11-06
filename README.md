@@ -1223,7 +1223,7 @@ I call this kind of scales the railroad because they are created following the g
 
 The following are not scales. Are small blocks of information which can be played in any order. I recommend you to create your own scales following any series of grades that you like. 
 
-Using the I iii V vii° grades of each chord. Don't you love diminished chords?
+Using the 1, 3, 5 and 7 grades of each chord. Don't you love diminished chords?
 
 ```text
 C major scale
@@ -1244,7 +1244,7 @@ E |:---------|---------|---------|---------|----------------------------------|
 
 ```
 
-Now let's use also four notes of the first inversion chords of C major, using the V - I - iii - V grades. Using the fifth grade twice.
+Now let's use also four notes of the first inversion chords of C major, using the 5 - 1 - 3 - 5 grades. Using the fifth grade twice.
 
 ```text
 C major scale
@@ -1265,7 +1265,7 @@ E |:----------|---------|---------|---------|---------------------------------|
 
 ```
 
-Let's do exactly the same, but now using instead the second inversion chords of C major, with the iii - I - V - iii. Now, the thirth grade appears twice.
+Let's do exactly the same, but now using instead the second inversion chords of C major, with the 3 - 1 - 5 - 3. Now, the thirth grade appears twice.
 
 ```text
 C major scale
@@ -1286,9 +1286,44 @@ E |:-10-------|-8-------|-7-------|-5-------|-3-------------------------------|
 
 ```
 
+### Ninth chords
+
+Using the 1, 3, 7, and 9 grade of each chord. This is a good exercise for slapping, if you slap the notes on the E and A string. The progression always go 1-3-7 3-7-9.
+
+```text
+C major scale
+    IV              V               vi              vii°                      !
+    Fmaj9           G9(b7)          Am9             Bm(b9)
+G |-----------0-0-|-----------2-2-|-----------4-4-|-----------2-5------------:|
+D |-----2---2---2-|-----3---3---3-|-----5---5---5-|-----7---7---7------------:|
+A |---0---0-----0-|---2---2-----2-|---3---3-----3-|---5---5-----5------------:|
+E |-1-----------1-|-3-----------3-|-5-----------5-|-7-----------7------------:|
+
+    l     l         l     l         l     l         l     l
+    
+    ^middle         ^middle         ^ring           ^ring
+
+
+     I               ii                  iii                                  !
+     Cmaj9           Dm9                 Em(b9)
+G |:-----------7-7-|--------------9-9--|----------------10-10-----------------|
+D |:-----9---9---9-|------10---10---10-|-------12----12----12-----------------|
+A |:---7---7-----7-|----8----8------8--|----10----10-------10-----------------|
+E |:-8-----------8-|-10-------------10-|-12----------------12-----------------|
+     
+     l     l         l       l           l        l
+
+     ^middle         ^ring               ^ring
+```
 
 
 
+
+
+
+
+The difference between a diminished chord and a half diminished chord lies in the seventh. The half diminished chord (m7b5) has a minor seventh (7) - it's a m7 chord wth a flat five (b5). The diminished chord has a diminished seventh (dim7, °7).
+(dim) & Half Diminished (m7b5) - Oolimo
 
 
 
