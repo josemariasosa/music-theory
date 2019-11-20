@@ -7,9 +7,19 @@ Music theory.
 
 ### 1.1 The Circle of Fifths
 
+```text
+Moving in fifths, starting in C. 
+    
+    C - G - D - A - E - B - F# - C# - G# - D# - A# - F - C                     !
+G |----------------------------------------------------------------------------|
+D |----------------------------------------------------------------------------|
+A |------------------------------------------------------3---------------------|
+E |-8---3---10--5---0---7---2----9----4----11---6----1-------------------------|
+```
+
 ### 1.2 The Circle of Fourths
 
-One of the best exercises to make you learn where are all the notes in the fretboard is to move in forths starting from C in the same string. Remember that if you say out loud the name of the note it could help you visualize it's position in regards of the other notes. This would look like this.
+One of the best exercises to make you learn where are all the notes in the fretboard is to move in fourths starting from C in the same string. Remember that if you say out loud the name of the note it could help you visualize it's position in regards of the other notes. This would look like this.
 
 Moving in fourths.
 
@@ -35,7 +45,7 @@ A |-3---8---1----6----11---4----9----2---7---0---5---10------------------------|
 E |----------------------------------------------------------------------------|
 ```
 
-Beautiful! Don't you think? And it's even better, if you really want to know your fret, you should memorize all an each position. Sounds hard, at the begining, after a while it start to get easier.
+Beautiful! Don't you think? And it's even better, if you really want to know your fret, you should memorize all an each position. Sounds hard, at the beginning, after a while it start to get easier.
 
 What about you, would you like to do by yourself the next two, the scales for the G and D string?
 
@@ -57,7 +67,88 @@ E |----------------------------------------------------------------------------|
 
 ### 1.3 Hand positions
 
-The hand position is given by a fret number and the finger that will play that note.
+The hand position is given by a fret number and the finger that will play that note. The most common hand position in the bass is given by the middle finger pressing the 3rd fret in the A string. This note is C. C is surrounded by 3 more notes. These four notes form some kind of square. This square give us a lot of information about what is being played. The square is formed by the following notes: B, C, E and F.
+
+Using only the middle and the index finger, play this simple four notes pattern.
+
+```text
+    B - C - E - F - E - C - B                                                  !
+G |----------------------------------------------------------------------------|
+D |---------2---3---2----------------------------------------------------------|
+A |-2---3---------------3---2--------------------------------------------------|
+E |----------------------------------------------------------------------------|
+```
+
+Repeat it until you fill safe playing these four notes with those 2 fingers alternating the movement of the fingers in your right hand.
+
+Try to use a metronome.
+
+When both of your hands learn to hit the note at the exact time. Like Miles Davis says, right in the middle! You'll start notice that the other two fingers, the ring finger and the pinky could reach two more frets by themself. So let's put those lazy fingers to work.
+
+The pinky finger will own the fifth fret, all the notes played in that fret will be pressed by the smallest finger. This rule also apply to the rest of the fingers. Every single one of them will be responsible for the note played in it's fret. Second fret to the index, third fret to the middle, fourth fret to the ring, fifth fret to the pinky. What a beautiful solution in order to balance the amount of work among the fingers of the hand.
+
+In the next scale we will incorporate this two fingers using 2 more notes: D, G. Also, we will incorporate the B note but from the next octave. This mean that the first note that we play belongs from a different octave than the same note we play in the G string.
+
+```text
+    B - C - D - E - F - G - B - G - F - E - D - C - B                          !
+G |-------------------------4--------------------------------------------------|
+D |-------------2---3---5-------5---3---2--------------------------------------|
+A |-2---3---5-------------------------------5---3---2--------------------------|
+E |----------------------------------------------------------------------------|
+```
+
+An octave is the unit in which the spectrum of frequencies is divided. Look this pattern:
+
+```text
+    B - B                                                                      !
+G |-----4----------------------------------------------------------------------|
+D |----------------------------------------------------------------------------|
+A |-2--------------------------------------------------------------------------|
+E |----------------------------------------------------------------------------|
+```
+
+This jump it is called an octave. It contains 12 notes, 12 fret sized notes. This rule apply always in any 4 strings bass using the standard tuning. Look how they sound played together. Remember one of the principles of the systems, the synthesis, where the sum of the parts of a system is greater than the parts separated. So, combining the notes is different from listening apart. What differences do you find.
+
+### 1.4 The work of the bassist
+
+Flea, the famous Red Hot Chilli Peppers bassist, said:
+
+> If you listen carefully to the sound of a hi-hat, it sounds like a "POP". Well, if you ask me, the bass must pass through the O. Right in the middle. That will help the other instruments, the more melodic instruments, to shine.
+
+### 1.5 The sound of each individual note
+
+Learn the individual sounds of the 12 notes. One way to learn each is to generate analogies for each note, or at least that it's what I did. Here is the list of the things I relate with each note.
+
+#### C
+
+I love this instrument. And also I love the sound for the note it was made to. Ask yourself any time during the day: what can I do, right now, to make a simple thing better? Sometimes is washing the dishes because they are dirty. Sometimes is working a little bit in the project you must deliver. But sometimes is also playing the bass long nights, using only the C major scale.
+
+#### C#/Db
+#### D
+#### D#/Eb
+#### E
+#### F
+#### F#/Gb
+#### G
+#### G#/Ab
+
+The location of the `Ab` note in the bass fret is easy to remember after I decided to relate that specific note with the 16th card of the Tarot major arcana.
+
+When I first started playing the bass, one of the first songs that learned by my self was "Undoing a Luciferian Towers" from the Luciferian Towers album of the Canadian experimental music collective Godspeed You! Black Emperor.
+
+The song develop a simple chord progression with complex layers of drone sounds. The song reaches a climax at the `6:10` minute, and it start to repeat a melody over an over with the following notes:
+
+`F - Gb - Ab - Bb - Ab - Gb - F`
+
+`Db - Eb - Db - Bb - Db`
+
+It was one of the first songs I was able to write down by myself. That is nice. However everytime I played it, by the time I reached the 6th minute of the song I forgot what was next. So what I did was to remember that in this part a special note was played. That note is Ab, which by my logic of assigning tarot cards to the notes, was the Tower. Also the name of the song.
+
+Each time I have to play Ab, I remember the Tower, so I don't have troubles finding that note fast in the bass.
+
+#### A
+#### A#/Bb
+#### B
 
 ## 2. The C major scale
 
@@ -1073,7 +1164,7 @@ So as a general rule, using the grades of the Major scale. The chord could be ro
 
 ```text
 
-1-3-5     major chord 
+1-3-5     major chord
 1-5-3
 
 3-5-1     1rst inversion
@@ -1374,6 +1465,14 @@ E |---------------------------------------------------------------------------|
           ^ring
                 ^ring
                       ^middle
+
+
+                                                                              !
+G |---------------------------------------------------------------------------|
+D |-15-12----13-10----12-8----10-7---8-5---7-3---5-1---3-0--------------------|
+A |-------13-------12------10------8-----6-----5-----3-----1------------------|
+E |---------------------------------------------------------------------------|
+
 ```
 
 
