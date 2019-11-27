@@ -109,7 +109,7 @@ E |----------------------------------------------------------------------------|
 
 This jump it is called an octave. It contains 12 notes, 12 fret sized notes. This rule apply always in any 4 strings bass using the standard tuning. Look how they sound played together. Remember one of the principles of the systems, the synthesis, where the sum of the parts of a system is greater than the parts separated. So, combining the notes is different from listening apart. What differences do you find.
 
-### 1.4 The work of the bassist
+### 1.4 The job of the bassist
 
 Flea, the famous Red Hot Chilli Peppers bassist, said:
 
@@ -919,8 +919,149 @@ E |----3----5----7----8----10---12---13---15---17---19------------------------|
 
 The more important thing is to train you ear. Listen how each chord sound individually, and also, how they sound in regards of the relation with other chords.
 
+## 6. Chord Inversion
 
-## 6. Triads going up and down
+Using the chords from the C major harmonization, we will try to learn about the Chord Inversion. As you may remember, the C major chord triad is build of the next three notes: `C`, `E` and `G`. `C` is the root, `E` is the major third, and `G` is the perfect fifth. But, what if, instead of playing the notes in that specific order we alternate the order of the same 3 notes. 
+
+What if we move the last note of the triad, putting the `G` first, and play the chord like this: `G-C-E`. Are we still playing the C major chord?
+
+Of course we are, but this arrangement of the notes it is called **the first inversion of the C major chord**. Let's play the two chords and discover how they sound.
+
+```text
+    C   C (1st inversion)                                                     !
+G |---|-----------------------------------------------------------------------|
+D |-5-|-2---------------------------------------------------------------------|
+A |-7-|-3---------------------------------------------------------------------|
+E |-8-|-3---------------------------------------------------------------------|
+```
+
+Ask yourself, what did you notice?
+
+Well, first of all, 66.66% of the sound of the 2 chords is exactly the same. The notes `C` and `E` are the same in the 2 chords only in a different position of the fretboard. The only note that actually change was `G`, now has a lower sound. See how this lower note influence the whole chord in a dramatic way, because it gives a whole new sound to it.
+
+Let's move the last note again to the first position, `E-G-C`, to obtain **the second inversion of the C major chord**. The sound that this inversion creates is my favorite. Since the `C` note is the highest of the three, it sounds like a total resolution for the root. Let's play the three chords and discover why I believe the sound of the second inversion is fantastic.
+
+```text
+    C   C (1st)   C (2nd inversion)                                           !
+G |---|---------|-------------------------------------------------------------|
+D |-5-|----2----|-10----------------------------------------------------------|
+A |-7-|----3----|-10----------------------------------------------------------|
+E |-8-|----3----|-12----------------------------------------------------------|
+```
+
+
+
+
+
+ even though the sound is different
+
+
+Chord invertions
+
+Cmajor triad   c-e-g
+
+first play this: c-e-g-c-e-g
+
+```text
+C major scale
+                                                                              !
+G |-----------9-12------------------------------------------------------------|
+D |--------10-----------------------------------------------------------------|
+A |---7-10--------------------------------------------------------------------|
+E |-8-------------------------------------------------------------------------|
+    ^middle
+```
+
+then play this: c-e-g - e-g-c - g-c-e - c-e-g
+
+```text
+C major scale
+              1rst      2nd invertions                                        !
+G |--------|---------|-------9-|----9-12-|------------------------------------|
+D |--------|------10-|----10---|-10------|------------------------------------|
+A |---7-10-|-7-10----|-10------|---------|------------------------------------|
+E |-8------|---------|---------|---------|------------------------------------|
+    ^middle
+```
+
+So as a general rule, using the grades of the Major scale. The chord could be rotated and create different sounds and mixes among those 3, and 4, notes. Test them all, feel them. Music is all about feelings.
+
+```text
+
+1-3-5     major chord
+1-5-3
+
+3-5-1     1rst inversion
+3-1-5
+
+5-1-3     2nd inversion
+5-3-1
+
+7-1-3-5   3rd inversion
+7-1-5-3
+7-3-5-1
+7-3-1-5
+7-5-1-3
+7-5-3-1
+
+1-3-5-6   6 chords (C6)
+
+1-3-5-9   add9 chords (Cadd9)
+1-2-3-5   add9, you can also do that change, the nine for the 2.
+
+1-b3-5-6  m6 chords (Cm6)
+
+
+
+summary
+
+1-b3-b5   dim diminished chords (Cdim)
+1-b3-b5-7 dim diminished chords
+
+1-3-#5    aug augmented chords (Caug)
+1-3-#5-7  aug augmented chords (Caug)
+
+1-4-5     sus4 sus suspended four chords (csus4)
+1-4-5-b7  7sus4 seven suspended four chods
+
+1-2-5     sus2 sus suspended four chords (csus2)
+1-2-5-b7  7sus4 seven suspended four chods
+
+```
+
+#### 1rst inversion C dim
+
+
+```text
+B diminished scale
+                                                                              !
+G |-------|-------|-----7-|---7-10-|-10-7---|-7-----|-------|-----------------|
+D |-------|-----9-|---9---|-9------|------9-|---9---|-9-----|-----------------|
+A |---5-8-|-5-8---|-8-----|--------|--------|-----8-|---8-5-|-8-5-------------|
+E |-7-----|-------|-------|--------|--------|-------|-------|-----7-----------|
+    ^ring
+```
+
+
+```text
+B diminished scale
+                                                                              !
+G |---------|---------|-----7-|---7-10-|-10-7---|-7-----|-------|-------------|
+D |---------|------9*-|---9---|-9------|------9-|---9---|-9-----|-------------|
+A |-------8-|----8----|-8-----|--------|--------|-----8-|---8-5-|-8-5---------|
+E |-7*-10---|-10------|-------|--------|--------|-------|-------|-----7-------|
+    ^index
+```
+
+The * shows where the root is. Always have in mind were is the rool in relation with the other fingers.
+
+
+
+
+
+
+
+## . Triads going up and down
 
 Going up
 
@@ -1130,106 +1271,7 @@ C sus4
 C7sus4
 1 4 5 b7
 
-## Chromatic approach triads C
 
-Chord invertions
-
-Cmajor triad   c-e-g
-
-first play this: c-e-g-c-e-g
-
-```text
-C major scale
-                                                                              !
-G |-----------9-12------------------------------------------------------------|
-D |--------10-----------------------------------------------------------------|
-A |---7-10--------------------------------------------------------------------|
-E |-8-------------------------------------------------------------------------|
-    ^middle
-```
-
-then play this: c-e-g - e-g-c - g-c-e - c-e-g
-
-```text
-C major scale
-              1rst      2nd invertions                                        !
-G |--------|---------|-------9-|----9-12-|------------------------------------|
-D |--------|------10-|----10---|-10------|------------------------------------|
-A |---7-10-|-7-10----|-10------|---------|------------------------------------|
-E |-8------|---------|---------|---------|------------------------------------|
-    ^middle
-```
-
-So as a general rule, using the grades of the Major scale. The chord could be rotated and create different sounds and mixes among those 3, and 4, notes. Test them all, feel them. Music is all about feelings.
-
-```text
-
-1-3-5     major chord
-1-5-3
-
-3-5-1     1rst inversion
-3-1-5
-
-5-1-3     2nd inversion
-5-3-1
-
-7-1-3-5   3rd inversion
-7-1-5-3
-7-3-5-1
-7-3-1-5
-7-5-1-3
-7-5-3-1
-
-1-3-5-6   6 chords (C6)
-
-1-3-5-9   add9 chords (Cadd9)
-1-2-3-5   add9, you can also do that change, the nine for the 2.
-
-1-b3-5-6  m6 chords (Cm6)
-
-
-
-summary
-
-1-b3-b5   dim diminished chords (Cdim)
-1-b3-b5-7 dim diminished chords
-
-1-3-#5    aug augmented chords (Caug)
-1-3-#5-7  aug augmented chords (Caug)
-
-1-4-5     sus4 sus suspended four chords (csus4)
-1-4-5-b7  7sus4 seven suspended four chods
-
-1-2-5     sus2 sus suspended four chords (csus2)
-1-2-5-b7  7sus4 seven suspended four chods
-
-```
-
-#### 1rst inversion C dim
-
-
-```text
-B diminished scale
-                                                                              !
-G |-------|-------|-----7-|---7-10-|-10-7---|-7-----|-------|-----------------|
-D |-------|-----9-|---9---|-9------|------9-|---9---|-9-----|-----------------|
-A |---5-8-|-5-8---|-8-----|--------|--------|-----8-|---8-5-|-8-5-------------|
-E |-7-----|-------|-------|--------|--------|-------|-------|-----7-----------|
-    ^ring
-```
-
-
-```text
-B diminished scale
-                                                                              !
-G |---------|---------|-----7-|---7-10-|-10-7---|-7-----|-------|-------------|
-D |---------|------9*-|---9---|-9------|------9-|---9---|-9-----|-------------|
-A |-------8-|----8----|-8-----|--------|--------|-----8-|---8-5-|-8-5---------|
-E |-7*-10---|-10------|-------|--------|--------|-------|-------|-----7-------|
-    ^index
-```
-
-The * shows where the root is. Always have in mind were is the rool in relation with the other fingers.
 
 
 ## Jazz leason
