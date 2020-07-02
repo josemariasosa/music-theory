@@ -6,21 +6,9 @@
 
 Learn the major scale. The rest is kind of the same.
 
-### 1.1 The Circle of Fifths
+### 1.1 The Circle of Fourths
 
-```text
-Moving in fifths, starting in C. 
-    
-    C - G - D - A - E - B - F# - C# - G# - D# - A# - F - C                     !
-G |----------------------------------------------------------------------------|
-D |----------------------------------------------------------------------------|
-A |------------------------------------------------------3---------------------|
-E |-8---3---10--5---0---7---2----9----4----11---6----1-------------------------|
-```
-
-### 1.2 The Circle of Fourths
-
-One of the best exercises to make you learn where are all the notes in the fretboard is to move in fourths starting from C in the same string. Remember that if you say out loud the name of the note it could help you visualize it's position in regards of the other notes. This would look like this.
+One of the best exercises, to make you learn where are all the notes in the fretboard, is to move in fourths starting from C in the same string. Remember, that if you say out loud the name of the note it could help you visualize it's position in regards of the other notes. This would look like this.
 
 Moving in fourths.
 
@@ -34,7 +22,21 @@ A |------------------------------------------------------3---------------------|
 E |-8---1---6----11---4----9----2----7---0---5---10--3-------------------------|
 ```
 
-Then go back, do exactly the same but backwards and that is call "moving in fifths". If you notice, at the end of this scale there is a C starting on the string bellow, ie. the A-string, so we can generate another scale if we took it from right there.
+### 1.2 The Circle of Fifths
+
+Then go back, do exactly the same but backwards and that is call "moving in fifths".
+
+```text
+Moving in fifths, starting in C. 
+    
+    C - G - D - A - E - B - F# - C# - G# - D# - A# - F - C                     !
+G |----------------------------------------------------------------------------|
+D |----------------------------------------------------------------------------|
+A |------------------------------------------------------3---------------------|
+E |-8---3---10--5---0---7---2----9----4----11---6----1-------------------------|
+```
+
+If you notice, at the end of this scale there is a C starting on the string bellow, ie. the A-string, so we can generate another scale if we took it from right there.
 
 ```text
 Moving in fourths, starting in C. 
@@ -46,7 +48,7 @@ A |-3---8---1----6----11---4----9----2---7---0---5---10------------------------|
 E |----------------------------------------------------------------------------|
 ```
 
-Beautiful! Don't you think? And it's even better, if you really want to know your fret, you should memorize all an each position. Sounds hard, at the beginning, after a while it start to get easier.
+Beautiful! Don't you think? And it's even better. If you really want to know your fret, you should memorize all an each position. Sounds hard, at the beginning, after a while it start to get easier.
 
 What about you, would you like to do by yourself the next two, the scales for the G and D string?
 
@@ -80,11 +82,11 @@ A |-2---3---------------3---2--------------------------------------------------|
 E |----------------------------------------------------------------------------|
 ```
 
-Repeat it until you fill safe playing these four notes with those 2 fingers alternating the movement of the fingers in your right hand.
+Repeat it until you feel safe playing these four notes with those 2 fingers alternating the movement of the fingers in your right hand.
 
 Try to use a metronome.
 
-When both of your hands learn to hit the note at the exact time. Like Miles Davis says, right in the middle! You'll start notice that the other two fingers, the ring finger and the pinky could reach two more frets by themself. So let's put those lazy fingers to work.
+When both of your hands learn to hit the note at the exact time. Like Miles Davis says, right in the middle!. You'll start notice that the other two fingers, the ring finger and the pinky could reach two more frets. So let's put those lazy fingers to work.
 
 The pinky finger will own the fifth fret, all the notes played in that fret will be pressed by the smallest finger. This rule also apply to the rest of the fingers. Every single one of them will be responsible for the note played in it's fret. Second fret to the index, third fret to the middle, fourth fret to the ring, fifth fret to the pinky. What a beautiful solution in order to balance the amount of work among the fingers of the hand.
 
@@ -163,7 +165,7 @@ Mu-Fa-Sa Mufasa es el nombre del léon.
 Mi-Fa-So
 E-F-G
 
-la firma del tiempo. quiza de esa manera se llame el próximo año. Suena mejor que el plan es el barco. hacia adelante, nada hacia atrás. también estaba pensando, otro candidato: todo lo hacía por jugar fútbol. recordar que es para el primero de enero.
+La firma del tiempo. Quiza de esa manera se llame el próximo año. Suena mejor que el plan es el barco. hacia adelante, nada hacia atrás. también estaba pensando, otro candidato: todo lo hacía por jugar fútbol. recordar que es para el primero de enero.
 
 Eric Clapton E minor pentatonic lick
 
@@ -179,11 +181,11 @@ E |----------------------------------------------------------------------------|
 
 ```text
                                                                                !
-e |---------------------------------------------------------------------------|
-B |----------------------------------------------------------------------|
-G |---------------------------------------------------------------------|
-D |---5-7-7~-5-7~------------------------------------------------------------------|
-A |-7-------------------------------------------------------------------------|
+e |----------------------------------------------------------------------------|
+B |----------------------------------------------------------------------------|
+G |----------------------------------------------------------------------------|
+D |---5-7-7~-5-7~--------------------------------------------------------------|
+A |-7--------------------------------------------------------------------------|
 E |----------------------------------------------------------------------------|
 ```
 
@@ -1155,11 +1157,11 @@ A |-7-|----3----|-10----------------------------------------------------------|
 E |-8-|----3----|-12----------------------------------------------------------|
 ```
 
+Sin importar que se trate de las mismas notas, el órden de las mismas es distinto y eso provoca que el sonido del acorde sea diferente.
 
 
 
 
- even though the sound is different
 
 
 Chord invertions
@@ -1259,10 +1261,10 @@ E |-7*-10---|-10------|-------|--------|--------|-------|-------|-----7-------|
     ^index
 ```
 
-The * shows where the root is. Always have in mind were is the rool in relation with the other fingers.
+The * shows where the root is. Always have in mind were is the root in relation with the other fingers.
 
 
-
+---------
 
 
 
@@ -1310,6 +1312,9 @@ D |-----10-|---10-9-|-10-9-7-|-9-7----|-7------|--------|--------|------------|
 A |--------|--------|--------|-----10-|---10-8-|-10-8-7-|-8-7----|-7----------|
 E |--------|--------|--------|--------|--------|--------|-----10-|---10-8-----|
 ```
+
+
+
 
 ### The up and down map of the guitar
 
@@ -2859,45 +2864,45 @@ v - pentatonic up and down
 
 ```text
                                                                               !
-e |----------8-10-8--------------|--------------------------------------------|
-B |-----8-10--------10-8-------------|--------------------------------------------|
-G |-10*------------------10*-------------|----------------------------------------|
-D |------------------------------|------------------------------------------|
-A |------------------------------|---------------------------------------|
-E |------------------------------|--------------------------------------------|
-
+e |----------8-10-8----------|------------------------------------------------|
+B |-----8-10--------10-8-----|------------------------------------------------|
+G |-10*------------------10*-|-10*-7--------------------7-10*-----------------|
+D |--------------------------|-------10-7----------7-10-----------------------|
+A |--------------------------|------------10-8*-10----------------------------|
+E |--------------------------|------------------------------------------------|
+    5   6 7  2 3  2 7  6 5     5   3 2  7 6  5  6  7 2  3 5
 ```
 
 v - triad up and down
-1-2-3
+5-7-2
 
 ```text
                                                                               !
-e |--------------------------|--------------------------------------------|
-B |----------------------------|--------------------------------------------|
-G |--------------------------------|----------------------------------------|
-D |------------------------------|------------------------------------------|
-A |------------------------------|---------------------------------------|
-E |------------------------------|--------------------------------------------|
+e |---------8--------|--------------------------------------------------------|
+B |-----10----10-----|--------------------------------------------------------|
+G |-10*----------10*-|-10*----------------10*---------------------------------|
+D |------------------|-----10----------10-------------------------------------|
+A |------------------|--------12-8*-12----------------------------------------|
+E |------------------|--------------------------------------------------------|
 
 ```
 
 iv - triad up and down
-1-2-3
+4-5-6-1-2
 
 ```text
                                                                               !
-e |--------------------------|--------------------------------------------|
-B |----------------------------|--------------------------------------------|
-G |--------------------------------|----------------------------------------|
-D |------------------------------|------------------------------------------|
-A |------------------------------|---------------------------------------|
-E |------------------------------|--------------------------------------------|
+e |--------6-8-6--------|-----------------------------------------------------|
+B |----6-8-------8-6----|-----------------------------------------------------|
+G |-8*---------------8*-|-8*-5----------------5-8*----------------------------|
+D |---------------------|------8-5--------5-8---------------------------------|
+A |---------------------|----------8-6*-8-------------------------------------|
+E |---------------------|-----------------------------------------------------|
 
 ```
 
 iv - triad up and down
-1-2-3
+4-6-1
 
 ```text
                                                                               !
